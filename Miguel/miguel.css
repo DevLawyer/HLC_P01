@@ -1,0 +1,175 @@
+/*
+This is the stylesheet of the git.html for the First Practice of the
+HLC module.
+*/
+
+/* Common elements style. */
+*{
+    margin: 0px;
+}
+
+/* BODY style. */
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #F5F5EF;
+}
+
+/* HEADER style. */
+h1.title
+{
+    text-align:center;
+    clear: both;
+    padding-bottom: 50px;
+    color: #1F2839;
+    margin-left: 260px;
+    transition: 0.5s;
+}
+
+/* ASIDE style. */
+.sidebar
+{
+    height: 100%;
+    width: 250px;
+    text-decoration: none;
+    position: fixed;
+    left: 0;
+    padding-top: 50px;
+    margin-right: 10px;
+    overflow-x: hidden;
+    z-index: 1;
+    transition: 0.5s;
+    background: #1F2839;
+    color: #F5F5EF;
+}
+
+h2.subtitle 
+{
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.sideContent
+{
+    padding-top: 10px;
+}
+
+.sideContent>a
+{
+    text-decoration: none;
+    color: #F5F5EF; 
+}
+
+.sidebar>a
+{
+    text-decoration: none;
+}
+
+.sideContent>a:hover
+{
+    background-color: #b69d74;
+    color: #1F2839;
+    font-size: 20px;
+    transition: 0.3s;
+}
+
+/* BUTTON to open sidebar. */
+.openbtn 
+{
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #b69d74;
+    color: #1F2839;
+    border-radius: 10px;
+    padding: 9px 15px;
+    margin-top: 50px;
+    margin-bottom: 0;
+    margin-left: 260px;
+    border: none;
+    transition: 0.5s;
+}
+  
+.openbtn:hover 
+{
+    background-color: #1F2839;
+    color: #F5F5EF;
+}
+
+/* BUTTON to close sidebar. */
+.closebtn 
+{
+    padding: 10px;
+    color:#b69d74;
+    font-size: 20px;
+    position: absolute;
+    border-radius: 10px;
+    right: 0;
+}
+
+.closebtn:hover
+{
+    background-color: #b69d74;
+    color: #1F2839;
+}
+
+/* MAIN CONTENT style.*/
+.container
+{
+    margin-left: 260px;
+    margin-right: 10px;
+    background-color: #F5F5EF;
+    transition: 0.5s;
+}
+
+article>h1
+{
+    background-color: #1F2839;
+    color: #F5F5EF;
+    text-align: center;
+    padding: 10px;
+}
+
+article
+{
+    background-color: #F5F5EF;
+}
+
+.section
+{
+    margin-bottom: 20px;
+    background:  #D6D5D5;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.section>h1
+{
+    border-radius: 10px;
+}
+
+.section>p
+{
+    margin: 20px;
+}
+
+/* BUTTON to go up. */
+.buttonUP
+{
+    position: relative;
+    border: none;
+    padding: 10px;
+    background-color: #b69d74;
+    color: #1F2839;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.buttonUP:hover
+{
+    background-color: #1F2839;
+    color: #F5F5EF;
+    transition: 0.3s;
+}

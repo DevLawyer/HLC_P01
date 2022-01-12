@@ -4,29 +4,155 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <title>GIT</title>
+    <link rel="stylesheet" href="miguel.css">
 </head>
 
 <body>
+
+    <script>
+        function openNav() {
+            document.getElementById("sidebar").style.width = "250px";
+            document.getElementById("container").style.marginLeft = "260px";
+            document.getElementById("title").style.marginLeft = "260px";
+            document.getElementById("openbtn").style.marginLeft = "260px";
+        }
+        
+        function closeNav() {
+            document.getElementById("sidebar").style.width = "0";
+            document.getElementById("container").style.marginLeft= "10px";
+            document.getElementById("title").style.marginLeft= "10px";
+            document.getElementById("openbtn").style.marginLeft= "10px";
+        }
+    </script>
+
+
+    <aside id="sidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">X</a>
+        <h2 class="subtitle">CONTENT</h2>
+        <ul>
+            <li class="sideContent"><a href="#section1">About GIT</a></li>
+            <li class="sideContent"><a href="#section2">GIT Advantages</a></li>
+            <li class="sideContent"><a href="#section3">GIT Disadvantages</a></li>
+            <li class="sideContent"><a href="#section4">Download</a></li>
+            <li class="sideContent"><a href="#section5">Installation Guide</a></li>
+            <li class="sideContent"><a href="#section6">First Steps</a></li>
+            <li class="sideContent"><a href="#section7">Commads</a></li>
+            <li class="sideContent"><a href="#section8">Third-party Tools</a></li>
+        </ul>
+    </aside>
+
+    
     <header>
-        <div id="title">
-            <div>GIT a great tool for developers</div>
-        </div>
+        <button id="openbtn" class="openbtn" onclick="openNav()">☰</button>
+        <h1 id="title" class="title">GIT a great tool for developers</h1>
     </header>
+    
+    
+    <article id="container" class="container">
+        <article id="section1" class="section">
+            <h1>About GIT</h1>
+            <p>
+                Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency. </br>
+                Git is easy to learn and has a tiny footprint with lightning fast performance. It outclasses SCM tools like Subversion, CVS, Perforce, and ClearCase with features like cheap local branching, convenient staging areas, and multiple workflows.</br>
+            </p>
+            <a href="#title">
+                <button class="buttonUP">
+                    Go up
+                </button>
+            </a>
+        </article>
 
-    <section>
-        <aside id="content">
-            <ul>
-                <li>About GIT.</li>
-                <li>GIT Advantages.</li>
-                <li>GIT Disadvantages.</li>
-                <li>Download.</li>
-                <li>Installation Guide.</li>
-                <li>First Steps.</li>
-                <li>Commads.</li>
-            </ul>
-        </aside>
-    </section>
+        <article id="section2" class="section">
+            <h1>GIT Advantages</h1>
+            <p>
+                Content of the section 1.
+            </p>
+            <a href="#title">
+                <button class="buttonUP">
+                    Go up
+                </button>
+            </a>
+        </article>
 
+        <article id="section3" class="section">
+            <h1>GIT Disadvantages</h1>
+            <p>
+                Content of the section 1.
+            </p>
+            <a href="#title">
+                <button class="buttonUP">
+                    Go up
+                </button>
+            </a>
+        </article>
+
+        <article id="section4" class="section">
+            <h1>Download</h1>
+            <p>
+                Content of the section 1.
+                <br/>
+                <a href="https://git-scm.com/downloads">
+                    <button>
+                        Download
+                    </button>
+                </a>
+            </p>
+            <a href="#title">
+                <button class="buttonUP">
+                    Go up
+                </button>
+            </a>
+        </article>
+
+        <article id="section5" class="section">
+            <h1>Installation Guide</h1>
+            <p>
+                Content of the section 1.
+            </p>
+            <a href="#title">
+                <button class="buttonUP">
+                    Go up
+                </button>
+            </a>
+        </article>
+
+        <article id="section6" class="section">
+            <h1>First Steps</h1>
+            <p>
+                Content of the section 1.
+            </p>
+            <a href="#title">
+                <button class="buttonUP">
+                    Go up
+                </button>
+            </a>
+        </article>
+
+        <article id="section7" class="section">
+            <h1>Commands</h1>
+            <p>
+                Content of the section 1.
+            </p>
+            <a href="#title">
+                <button class="buttonUP">
+                    Go up
+                </button>
+            </a>
+        </article>
+
+        <article id="section8" class="section">
+            <h1>Third-party Tools</h1>
+            <p>
+                Content of the section 1.
+            </p>
+            <a href="#title">
+                <button class="buttonUP">
+                    Go up
+                </button>
+            </a>
+        </article>
+    </article>
+    
     <footer>
 
     </footer>
