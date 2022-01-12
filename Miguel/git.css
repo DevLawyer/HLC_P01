@@ -8,6 +8,11 @@ HLC module.
     margin: 0px;
 }
 
+html
+{
+    scroll-behavior: smooth;
+}
+
 /* BODY style. */
 body
 {
@@ -20,7 +25,7 @@ h1.title
 {
     text-align:center;
     clear: both;
-    padding-bottom: 50px;
+    padding: 50px;
     color: #1F2839;
     margin-left: 260px;
     transition: 0.5s;
@@ -31,7 +36,6 @@ h1.title
 {
     height: 100%;
     width: 250px;
-    text-decoration: none;
     position: fixed;
     left: 0;
     padding-top: 50px;
@@ -43,6 +47,11 @@ h1.title
     color: #F5F5EF;
 }
 
+.sidebar>a
+{
+    text-decoration: none;
+}
+
 h2.subtitle 
 {
     text-align: center;
@@ -51,59 +60,62 @@ h2.subtitle
 
 .sideContent
 {
-    padding-top: 10px;
+    height: 20px;
+    padding: 10px;
 }
 
 .sideContent>a
 {
     text-decoration: none;
-    color: #F5F5EF; 
+    color: #F5F5EF;
 }
 
-.sidebar>a
-{
-    text-decoration: none;
-}
-
-.sideContent>a:hover
+.sideContent:hover
 {
     background-color: #b69d74;
     color: #1F2839;
     font-size: 20px;
-    transition: 0.3s;
+    transition: 0.5s;
 }
+
 
 /* BUTTON to open sidebar. */
 .openbtn 
-{
+{   
+    position: fixed;
+    z-index: 1;
     font-size: 20px;
     cursor: pointer;
-    background-color: #b69d74;
-    color: #1F2839;
+    background-color: #1F2839;
+    color: #F5F5EF;
     border-radius: 10px;
-    padding: 9px 15px;
-    margin-top: 50px;
+    padding: 7px 13px;
+    margin-top: 10px;
     margin-bottom: 0;
-    margin-left: 260px;
-    border: none;
+    margin-left: 10px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #F5F5EF;
     transition: 0.5s;
+    visibility: hidden;
 }
   
 .openbtn:hover 
 {
-    background-color: #1F2839;
-    color: #F5F5EF;
+    background-color: #b69d74;
+    color: #1F2839;
 }
 
 /* BUTTON to close sidebar. */
 .closebtn 
 {
-    padding: 10px;
+    padding: 11px;
     color:#b69d74;
     font-size: 20px;
     position: absolute;
     border-radius: 10px;
-    right: 0;
+    right: 10px;
+    top: 10px;
 }
 
 .closebtn:hover
@@ -119,6 +131,13 @@ h2.subtitle
     margin-right: 10px;
     background-color: #F5F5EF;
     transition: 0.5s;
+}
+
+.mainImage
+{
+    float: left;
+    margin: 20px;
+    width: 220px;
 }
 
 article>h1
@@ -150,26 +169,33 @@ article
 .section>p
 {
     margin: 20px;
+    margin-bottom: 40px;
+    text-align: justify;
+    max-height: 100%;
 }
 
 /* BUTTON to go up. */
 .buttonUP
 {
-    position: relative;
     border: none;
-    padding: 10px;
-    background-color: #b69d74;
     color: #1F2839;
     text-decoration: none;
     font-size: 14px;
     font-weight: bold;
     cursor: pointer;
+    height: 40px;
+    width: 40px;
     border-radius: 10px;
+    background: url("arrowUP.png") no-repeat;
+    padding: 10px;
+	background-position: center;
+    background-color: #b69d74;
 }
 
 .buttonUP:hover
 {
-    background-color: #1F2839;
     color: #F5F5EF;
     transition: 0.3s;
+    background-image: url("arrowUP_Hover.png");
+    background-color: #1F2839;
 }

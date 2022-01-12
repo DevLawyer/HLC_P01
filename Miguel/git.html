@@ -4,46 +4,49 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <title>GIT</title>
-    <link rel="stylesheet" href="miguel.css">
+    <link rel="stylesheet" href="git.css">
+    <script src="git.js"></script>
 </head>
 
 <body>
-
-    <script>
-        function openNav() {
-            document.getElementById("sidebar").style.width = "250px";
-            document.getElementById("container").style.marginLeft = "260px";
-            document.getElementById("title").style.marginLeft = "260px";
-            document.getElementById("openbtn").style.marginLeft = "260px";
-        }
-        
-        function closeNav() {
-            document.getElementById("sidebar").style.width = "0";
-            document.getElementById("container").style.marginLeft= "10px";
-            document.getElementById("title").style.marginLeft= "10px";
-            document.getElementById("openbtn").style.marginLeft= "10px";
-        }
-    </script>
-
-
+    
+    <button id="openbtn" class="openbtn" onclick="openNav()">☰</button>
     <aside id="sidebar" class="sidebar">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">X</a>
         <h2 class="subtitle">CONTENT</h2>
-        <ul>
-            <li class="sideContent"><a href="#section1">About GIT</a></li>
-            <li class="sideContent"><a href="#section2">GIT Advantages</a></li>
-            <li class="sideContent"><a href="#section3">GIT Disadvantages</a></li>
-            <li class="sideContent"><a href="#section4">Download</a></li>
-            <li class="sideContent"><a href="#section5">Installation Guide</a></li>
-            <li class="sideContent"><a href="#section6">First Steps</a></li>
-            <li class="sideContent"><a href="#section7">Commads</a></li>
-            <li class="sideContent"><a href="#section8">Third-party Tools</a></li>
-        </ul>
+        <p class="sideContent" >
+            <a href="#section1">ABOUT GIT</a><br/>
+        </p>
+        <p class="sideContent" >
+            <a href="#section2">GIT ADVANTAGES</a><br/>
+        </p>
+
+        <p class="sideContent">
+            <a href="#section3">GIT DISADVANTAGES</a><br/>
+        </p>
+        <p class="sideContent"> 
+            <a href="#section4">DOWNLOAD</a><br/>
+        </p>
+
+        <p class="sideContent">
+            <a href="#section5">INSTALLATION GUIDE</a><br/>
+        </p>
+
+        <p class="sideContent">
+            <a href="#section6">FIRST STEPS</a><br/>
+        </p>
+
+        <p class="sideContent">
+            <a href="#section7">COMMADS</a><br/>
+        </p>
+
+        <p class="sideContent">
+            <a href="#section8">THIRD-PARTY TOOLS</a>
+        </p>
     </aside>
 
     
     <header>
-        <button id="openbtn" class="openbtn" onclick="openNav()">☰</button>
         <h1 id="title" class="title">GIT a great tool for developers</h1>
     </header>
     
@@ -51,14 +54,15 @@
     <article id="container" class="container">
         <article id="section1" class="section">
             <h1>About GIT</h1>
+            <image src="Images/GIT_logo.png" class="mainImage"></image>
             <p>
-                Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency. </br>
+                Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency. 
+                </br>
+                </br>
                 Git is easy to learn and has a tiny footprint with lightning fast performance. It outclasses SCM tools like Subversion, CVS, Perforce, and ClearCase with features like cheap local branching, convenient staging areas, and multiple workflows.</br>
             </p>
             <a href="#title">
-                <button class="buttonUP">
-                    Go up
-                </button>
+                <button class="buttonUP"></button>
             </a>
         </article>
 
@@ -68,9 +72,7 @@
                 Content of the section 1.
             </p>
             <a href="#title">
-                <button class="buttonUP">
-                    Go up
-                </button>
+                <button class="buttonUP"></button>
             </a>
         </article>
 
@@ -80,9 +82,7 @@
                 Content of the section 1.
             </p>
             <a href="#title">
-                <button class="buttonUP">
-                    Go up
-                </button>
+                <button class="buttonUP"></button>
             </a>
         </article>
 
@@ -98,9 +98,7 @@
                 </a>
             </p>
             <a href="#title">
-                <button class="buttonUP">
-                    Go up
-                </button>
+                <button class="buttonUP"></button>
             </a>
         </article>
 
@@ -110,9 +108,7 @@
                 Content of the section 1.
             </p>
             <a href="#title">
-                <button class="buttonUP">
-                    Go up
-                </button>
+                <button class="buttonUP"></button>
             </a>
         </article>
 
@@ -122,9 +118,7 @@
                 Content of the section 1.
             </p>
             <a href="#title">
-                <button class="buttonUP">
-                    Go up
-                </button>
+                <button class="buttonUP"></button>
             </a>
         </article>
 
@@ -134,9 +128,7 @@
                 Content of the section 1.
             </p>
             <a href="#title">
-                <button class="buttonUP">
-                    Go up
-                </button>
+                <button class="buttonUP"></button>
             </a>
         </article>
 
@@ -146,9 +138,7 @@
                 Content of the section 1.
             </p>
             <a href="#title">
-                <button class="buttonUP">
-                    Go up
-                </button>
+                <button class="buttonUP"></button>
             </a>
         </article>
     </article>
