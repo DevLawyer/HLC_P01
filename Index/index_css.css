@@ -1,0 +1,114 @@
+/*
+This is the stylesheet of the git.html for the First Practice of the
+HLC module.
+*/
+
+/* Common elements style. */
+
+/* BODY style. */
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #F5F5EF;
+}
+
+/* HEADER style. */
+h1.title
+{
+text-align:center;
+clear: both;
+padding: 50px;
+color: #1F2839;
+transition: 0.5s;
+}
+
+/* ASIDE style. */
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+.navigationMenu {
+    width:538px;
+    background: #1f2839;
+    border-radius: 6px;
+    margin: 33px auto;
+}
+
+.navigationMenu  > ul{
+    list-style-type: none;
+}
+
+.menu > li{
+    display: inline-block;
+    position: relative;
+}
+
+
+
+.menu > li > a{
+    text-decoration: none;
+    display: block;
+    padding: 15px;
+    color: white;
+    font-weight: bold;
+}
+
+.menu > li > a:hover{
+    color: #b69d74;
+    transition: all 1.2s;
+}
+
+
+
+
+.submenu{
+    position: absolute;
+    width: 220px;
+    margin-left: 10px;
+    background: #303a4c;
+    display: none;
+    border-radius: 6px;
+}
+
+
+
+.submenu > li{
+    list-style-type: none;
+    padding: 10px;
+
+}
+
+
+.submenu > li > a{
+    text-decoration: none;
+    color: #FFF;
+}
+
+
+.submenu > li > a:hover{
+    color:#b69d74;
+    transition: all 1.2s;
+}
+
+
+.menu > li:hover .submenu{
+    
+    
+    display: block;
+
+
+}
+
+.backgrounds:nth-child(even){
+    background:#363f4d;
+}
+
+
