@@ -19,7 +19,7 @@ body
 
 /* HEADER style. */
 
-h1.title{
+h1.mainTitle{
     text-align:center;
     clear: both;
     padding: 50px;
@@ -28,9 +28,18 @@ h1.title{
     margin-left: 350px;
 }
 
+h1.title
+{
+    text-align:center;
+    clear: both;
+    padding: 50px;
+    color: #1F2839;
+    margin-left: 350px;
+    transition: 0.5s;
+}
 
 
-h1.title:last-child{
+h1.mainTitle:last-child{
     text-align: center;
     padding: 0;
     text-decoration-style: wavy;
@@ -67,8 +76,6 @@ h1.title:last-child{
     display: inline-block;
     position: relative;
 }
-
-
 
 .menu > li > a{
     text-decoration: none;
