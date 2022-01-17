@@ -6,7 +6,6 @@ HLC module.
 /* Common elements style. */
 *{
     margin: 0;
-    padding: 0;
 }
 
 html
@@ -30,7 +29,6 @@ header
 
 h1.mainTitle
 {
-
     text-align:center;
     clear: both;
     padding: 50px;
@@ -105,6 +103,7 @@ h1.mainTitle:last-child{
     background: #303a4c;
     display: none;
     border-radius: 6px;
+    padding-left: 0;
 }
 
 .submenu > li{
@@ -162,7 +161,8 @@ h2.subtitle
 {
     height: 20px;
     padding: 10px;
-    padding-left: 20px;
+    padding-left: 10px;
+    margin-left: 10px;
 }
 
 .sideContent>a
@@ -175,8 +175,9 @@ h2.subtitle
 {
     background-color: #b69d74;
     color: #1F2839;
-    font-size: 20px;
+    font-size: 19px;
     transition: 0.5s;
+    width: 500px;
 }
 
 
@@ -208,13 +209,12 @@ h2.subtitle
 /* BUTTON to close sidebar. */
 .closebtn 
 {
-    padding: 11px;
+    padding: 8px;
     color:#b69d74;
     font-size: 20px;
     position: absolute;
-    border-radius: 10px;
     right: 10px;
-    top: 10px;
+    top: 4px;
 }
 
 .closebtn:hover
