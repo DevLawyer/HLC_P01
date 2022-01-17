@@ -72,6 +72,9 @@ h1.mainTitle:last-child{
     text-align: center;
     transition: 0.5s;
     margin-left: 350px;
+    border-bottom: #F5F5EF;
+    border-bottom-style: solid;
+    border-bottom-width: 10px;
 }
 
 .navigationMenu  > ul{
@@ -144,6 +147,9 @@ h1.mainTitle:last-child{
     transition: 0.5s;
     background: #1F2839;
     color: #F5F5EF;
+    border-right-color: #b69d74;
+    border-right-width: 5px;
+    border-right-style: solid;
 }
 
 .sidebar>a
@@ -244,6 +250,7 @@ h2.subtitle
 
 .section
 {
+    font-size: 18px;
     margin-bottom: 20px;
     background:  #D6D5D5;
     padding: 20px;
@@ -307,7 +314,7 @@ article
 footer{
     margin-left: 350px; 
     margin-bottom: 0;
-    height: 200px;
+    height: 220px;
     background: #1f2839;
     color: white;
     transition: 0.5s;
