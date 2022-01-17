@@ -9,10 +9,12 @@
 
 .textoS1{
   align-self: center;
+  width: auto;
 }
 
 .imgS1{
   padding: 1%;
+  width: auto;
 }
 
 .btn1{
