@@ -233,3 +233,63 @@ h2.subtitle
     text-align: center;
     padding-bottom: 20px;
 }
+
+footer{
+
+    width: 80%;
+    margin-left: 360px; /This margin is bc my aside has more width pixels than the other asides/
+    height: 200px;
+    background: #1f2839;
+    color: white;
+    border-radius: 10px;
+
+
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+}
+
+footer h3{
+    font-size: 16px;
+    margin-top: 10px;
+
+}
+
+footer p{
+    font-size: 12px;
+    margin-top: 5px;
+    font-style: italic;
+}
+
+.footerSection{
+    padding: 10px;
+    margin-bottom: 10px;
+
+
+}
+
+.footerSection li{
+    list-style-type: none;
+    margin-top: 17px;
+    margin-right: 15px;
+    display: inline-block;
+}
+
+.footerSection:last-child{
+    float: right;
+    margin-top: -110.9px;
+    font-size: 16px;
+
+}
+
+.footerSection img:hover{
+    transform: scale(1.3);
+}
+
+.footerSection > a{
+    display: list-item;
+    list-style-type: none;
+    margin-top: 10px;
+}
