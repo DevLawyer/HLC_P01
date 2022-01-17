@@ -10,6 +10,9 @@ function openNav() {
     document.getElementById("sidebar").style.width = "350px";
     document.getElementById("container").style.marginLeft = "360px";
     document.getElementById("title").style.marginLeft = "360px";
+    document.getElementById("mainFooter").style.marginLeft = "360px";
+    document.getElementById("mainHeader").style.marginLeft = "360px";
+    document.getElementById("navigationMenu").style.marginLeft = "360px";
 }
 
 function closeNav() {
@@ -20,6 +23,9 @@ function closeNav() {
     document.getElementById("sidebar").style.width = "0";
     document.getElementById("container").style.marginLeft= "10px";
     document.getElementById("title").style.marginLeft= "10px";
+    document.getElementById("mainFooter").style.marginLeft = "10px";
+    document.getElementById("mainHeader").style.marginLeft = "10px";
+    document.getElementById("navigationMenu").style.marginLeft = "10px";
 }
 
 function openSection(id) {

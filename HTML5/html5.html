@@ -1,0 +1,1021 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="icon" href="Images/HTML_LOGO.png">
+    <title>HTML5</title>
+    <link rel="stylesheet" href="../Index/common.css"/>
+    <link rel="stylesheet" href="salvador.css"/>
+    <script src="../Index/common.js"></script>
+</head>
+
+<body>
+
+    <button id="openbtn" class="openbtn" onclick="openNav()">☰</button>
+
+    <aside id="sidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">X</a>
+        <h2 class="subtitle">CONTENT</h2>
+        <p class="sideContent" >
+            <a href="#section1">ABOUT HTML5</a><br/>
+        </p>
+
+        <p class="sideContent">
+            <a href="#section2">ADVANTAGES</a><br/>
+        </p>
+
+        <p class="sideContent">
+            <a href="#section3">DISADVANTAGES</a><br/>
+        </p>
+
+        <p class="sideContent" >
+            <a href="#section4">HTML FEATURES</a><br/>
+        </p>
+
+        <p class="sideContent">
+            <a href="#section5">THE BASICS OF HTML</a><br/>
+        </p>
+        <p class="sideContent"> 
+            <a href="#section6">START IN HTML</a><br/>
+        </p>
+
+        <p class="sideContent">
+            <a href="#section7">HTML TAGS</a><br/>
+        </p>
+
+    </aside>
+
+    <header id="mainHeader">
+		<h1 class="mainTitle">Underline Academy</h1>
+		<h1 class="mainTitle">Underline AcademY</h1>
+	</header>
+
+    <nav id="navigationMenu" class="navigationMenu">
+		<ul class="menu">
+            <li><a href="../Index/index.html">HOME</a>
+			</li>
+			<li><a href="../GIT/git.html">Git</a>
+				<ul class="submenu">
+					<li class="backgrounds"><a href="../GIT/git.html#section1">About GIT</a></li>
+					<li class="backgrounds"><a href="../GIT/git.html#section2">GIT advantages</a></li>
+					<li class="backgrounds"><a href="../GIT/git.html#section3">GIT disadvantages</a></li>
+					<li class="backgrounds"><a href="../GIT/git.html#section4">Download</a></li>
+					<li class="backgrounds"><a href="../GIT/git.html#section5">Installation Guide</a></li>
+					<li class="backgrounds"><a href="../GIT/git.html#section6">First Steps</a></li>
+					<li class="backgrounds"><a href="../GIT/git.html#section7">Commands</a></li>
+					<li class="backgrounds"><a href="../GIT/git.html#section8">Third-party tools</a></li>
+				</ul>
+			</li>
+			<li><a href="../CSS3/css3.html">CSS3</a>
+				<ul class="submenu">
+					<li class="backgrounds"><a href="../CSS3/css3.html#apartado1">What is CSS3?</a></li>
+					<li class="backgrounds"><a href="../CSS3/css3.html#apartado2">How to insert CSS3?</a></li>
+					<li class="backgrounds"><a href="../CSS3/css3.html#apartado3">Selectors in CSS3</a></li>
+					<li class="backgrounds"><a href="../CSS3/css3.html#apartado4">Colors in CSS3</a></li>
+					<li class="backgrounds"><a href="../CSS3/css3.html#ultimo">Learn about CSS3</a></li>
+				</ul>
+			</li>
+			<li><a href="../HTML5/html5.html">HTML5</a>
+				<ul class="submenu">
+					<li class="backgrounds"><a href="../HTML5/html5.html#section1">About HTML5</a></li>
+					<li class="backgrounds"><a href="../HTML5/html5.html#section2">Advantages</a></li>
+					<li class="backgrounds"><a href="../HTML5/html5.html#section3">Disadvantages</a></li>
+					<li class="backgrounds"><a href="../HTML5/html5.html#section4">HTML features</a></li>
+					<li class="backgrounds"><a href="../HTML5/html5.html#section5">The basics of HTML</a></li>
+					<li class="backgrounds"><a href="../HTML5/html5.html#section6">Start in HTML</a></li>
+					<li class="backgrounds"><a href="../HTML5/html5.html#section7">HTML tags</a></li>
+				</ul>
+			</li>
+			<li><a href="../AntonioM/DevTools.html">Browser Developer Tools</a>
+				<ul class="submenu">
+					<li class="backgrounds"><a href="#">What's it?</a></li>
+					<li class="backgrounds"><a href="#">How to open?</a></li>
+					<li class="backgrounds"><a href="#">Elements panel</a></li>
+					<li class="backgrounds"><a href="#">Console panel</a></li>
+					<li class="backgrounds"><a href="#">Sources panel</a></li>
+					<li class="backgrounds"><a href="#">Network panel</a></li>
+					<li class="backgrounds"><a href="#">Timeline panel</a></li>
+					<li class="backgrounds"><a href="#">Application panel</a></li>
+					<li class="backgrounds"><a href="#">Security panel</a></li>
+				</ul>
+			</li>
+			<li><a href="../VSCode/vscode.html">Visual Studio Code</a>
+				<ul class="submenu">
+					<li class="backgrounds"><a href="../VSCode/vscode.html#section1">What is VS Code?</a></li>
+					<li class="backgrounds"><a href="../VSCode/vscode.html#section2">Intellisense</a></li>
+					<li class="backgrounds"><a href="../VSCode/vscode.html#section3">Run and Debug</a></li>
+					<li class="backgrounds"><a href="../VSCode/vscode.html#section4">Built-in Git</a></li>
+					<li class="backgrounds"><a href="../VSCode/vscode.html#section5">Extensions</a></li>
+				</ul>
+			</li>
+		</ul>
+	</nav>
+    
+    <div>
+        <h1 id="title" class="title">What is HTML</h1>
+    </div>
+    
+    <article id="container" class="container">
+        <article id="section1" class="section">
+            <h1>ABOUT HTML5</h1>
+            <image src="Images/HTML_LOGO.png" class="mainImage"></image>
+            <p>
+                The World Wide Web (WWW) is a system that contains an almost infinite amount of information. But this
+                Information must be arranged in some way so that it is possible to find what you are looking for. Unit
+                Basic where this information is stored are the Web pages. These pages are characterized by containing
+                text, images, animations ... and even sound and video.
+                y. 
+                <br/>
+                <br/>
+
+                One of the most important characteristics of Web pages is that they are hypertext. This means that
+                Pages are not isolated elements, but are linked to others through links or hypertext links. 
+
+                Thanks to these links the internet navigator can click on a text (text that we will call from now on
+                active) of a page to navigate to another page. It will be up to the home page programmer to decide
+                which words or phrases will be active and where it will take us to click on them.
+            </p>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <a href="#title">
+                <button class="buttonUP"></button>
+            </a>
+        </article>
+
+        <article id="section2" class="section">
+            <h1>HTML ADVANTAGES</h1>
+            <br/>
+            <ul>
+                <li>It allows you to develop applications that easily adapt to different resolutions, screen sizes, aspect ratios, and orientations.</li>
+
+                <li>It enables advanced capabilities such as GPS, camera and accelerometer to be enhanced on modern devices and provides a context-sensitive user experience on a wide variety of devices, including smartphones and electronic tablets.</li>
+                
+                <li>Applications can be deployed as local web applications and can also be viewed in browsers.</li>
+                
+                <li>Mobile apps can use the same monetization and distribution channels as native apps.</li>
+                
+                <li>Applications are not restricted by browser window frames and can be run in full screen mode.</li>
+                
+                <li>Users have complete control of devices and use of screen space.</li>
+                
+                <li>The centralized code can be modified to interface with multiple devices.</li>
+                
+                <li>JavaScript *, HTML, and CSS are the backbone of the Internet and web applications; therefore, the migration of development tools to mobile devices is easier.
+                Writing integration code only once enables mobile applications to function similarly on all platforms, regardless of device.</li>
+            </ul>
+            <a href="#title">
+                <button class="buttonUP"></button>
+            </a>
+        </article>
+
+        <article id="section3" class="section">
+            <h1>HTML DISADVANTAGES</h1>
+            <br/>
+            <ul>
+                <li>Sometimes mobile apps take time to get ready because developers have to write code for each platform.</li>
+
+                <li>Developers work in languages ​​that are not native to the platforms; therefore, the effectiveness of the code depends on the translation engine. It is often the case that coding techniques are inefficient or that the code is redundant.</li>
+                
+                <li>The difference in platform runtimes often causes complications in cross-platform mobile application development.</li>
+                
+                <li>The HTML5 standard evolved in a relatively short period of time, resulting in discrepancies in the implementation of CSS attributes, HTML tags, and JavaScript APIs. Sometimes these features behave differently on different platforms. However, there are tools available to resolve these discrepancies.</li>
+            </ul>
+            <a href="#title">
+                <button class="buttonUP"></button>
+            </a>
+        </article>
+
+        <article id="section4" class="section">
+            <h1>HTML FEATURES</h1>
+            <ul>
+                <li>The Web had to be distributed: The information spread over not very large pages linked together.</li>
+                <li>The Web had to be hypertext and it had to be easy to navigate.</li>
+                <li>It had to be compatible with all types of computers (PCs, Macintosh, workstations ...) and with all
+                    type of operating systems (Windows, MS-DOS, UNIX, MAC-OS, ...).</li>
+                <li>It had to be dynamic: the process of changing and updating information had to be agile and fast.</li>
+            </ul>
+            <br/>
+
+            <iframe width="800" height="400" class="center"src="https://www.youtube.com/embed/W-6OY9eI3hk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <a href="#title">
+                <button class="buttonUP"></button>
+            </a>
+        </article>
+
+        <article id="section5" class="section">
+            <h1>THE BASICS OF HTML</h1>
+            <p>
+                Once we have reviewed some basic notions of HTML and Web page programming in general, we will enter
+                fully into programming with this language. We will soon realize the simplicity of this language which
+                It makes it a very easy language to learn and that will allow us to create pages even more easily.
+                The commands of this language will be made up of commands called labels that can have either the
+                following structure:
+
+                <b class="center">&lt;LABEL_NAME&gt;</b>
+                Or this other:
+
+                <b class="center">&lt;LABEL_NAME&gt; TEXT &lt;/ LABEL NAME&gt;</b>
+
+                As we can see, the first structure is formed by a single instruction and the second by two: one that marks
+                the beginning of the label and another that marks the end, with text between them.
+                
+                For example, to tell the browser that we want it to paint a horizontal line we must write:
+                <b class="center">&lt;hr&gt;</b>
+                
+                As simple as that. As we can see, the name of the tag is delimited by the symbols less than (<) and greater
+                than (>), all HTML instructions must be enclosed between these two symbols.
+                But the labels are not limited to indicating such simple commands, these commands sometimes have parameters.
+                For example, the <b>&lt;hr&gt;</b> tag as we have done previously would give rise to the line that we see in the
+                figure 1.5, ie tells the browser to draw a horizontal line on the screen. This line has a thickness
+                default and variable width depending on the size of the browser window.
+            </p>
+            <a href="#title">
+                <button class="buttonUP"></button>
+            </a>
+        </article>
+
+        <article id="section6" class="section">
+            <h1>GET STARTED WITH HTML</h1>
+            <p>
+                First of all we must specify that the text file we are writing is an HTML document,
+                for this we use the start and end instructions of the <html> tag at the beginning and end of the page
+                respectively:
+                <b class="center">&lt;html&gt;</b>
+                Page code:
+                <b class="center">&lt;/html&gt;</b>
+                The page code is in turn made up of two large blocks, the header and the body.
+                The head of the page is delimited by the start and end instructions of the head tag. Are
+                Instructions must be inside the HTML tag as follows:
+                <b class="center">&lt;html&gt;</b>
+                <b class="center">&lt;head&gt;</b>
+                <i class="center">Header elements</i>
+                <b class="center">&lt;/head&gt;</b>
+                <i class="underline">... Rest of the page code ...</i>
+                <b class="center">&lt;/html&gt;</b>
+                All the information that will affect the entire page is entered at the top of the page. Initially
+                this information will be limited to the title. This title will be indicated with the title tag using the following syntax:
+                
+                <b class="center">&lt;html&gt;</b>
+                <b class="center">&lt;head&gt;</b>
+                <b class="center">&lt;title&gt;My first WEB page&lt;/title&gt;</b>
+                <b class="center">&lt;/head&gt;</b>
+                <b class="center">&lt;/html&gt;</b>
+                The result of viewing this page with our browser is the one shown in figure 2.2. As we see, the
+                screen area where the page is usually is still empty, but if you look at the window header
+                from the browser we see that the title has changed from being Microsoft Internet Explorer ™ to "My first WEB page -
+                Microsoft Internet Explorer ™ ". In other words, the title that we give to our page with the &lt;TITLE&gt; tag will pass
+                to be the title of the browser window.            
+            </p>
+
+            <p>
+                HTML works with tags (tags) that allow us to organize the content of a web page. That is, thanks to a label we can indicate that a text, an image, a form, a table, a link, etc. will be displayed.
+
+                The name of the tag is always written between the symbols <and>. For example:
+                <b class="center">&lt;html&gt;</b>
+                
+                In addition, tags are usually represented in pairs:
+                
+                <b class="center">&lt;html&gt;</b>
+                <b class="center">&lt;/html&gt;</b>
+                The first tag is called the start tag and the second end tag and within both we find the content. Element is dominated by the set formed by the start tag, the content and the end tag:
+                <b class="center">&lt;tag&gt;content&lt;/tag&gt;</b>
+                Then we have the attributes that provide extra information and will always appear included within the start tag.
+                <b class="center">&lt;atribute tag = "value"&gt;</b>
+                As you can see the value of the attribute we will write it between double quotes. In short, we have the labels or tags; They can have attributes and the tags along with their content are called elements.
+            </p>                    
+            <div class="note">
+                <p><strong>NOTE:</strong> HTML Tags are always written in lowercase letters</p>
+            </div>
+            <p>
+                Some HTML tags are not closed, for example br and hr.
+                <b class="center">&lt;br&gt;</b>
+
+                Tag: br stands for break line, it breaks the line of the code.
+                
+                <b class="center">&lt;hr&gt;</b>
+                Tag: hr stands for Horizontal Rule. This tag is used to put a line across the webpage.
+            </p>
+            
+            <hr class="line">
+
+            <h2 class="subtext">HTML META TAGS</h2>
+            </p>
+            <b class="center">DOCTYPE, title, link, meta, style</b>
+            
+            
+            <hr class="line">
+
+            <h2 class="subtext">HTML TEXT TAGS</h2>
+            <b class="center">
+                >&lt;p&gt;, &lt;h1&gt; &lt;h2&gt; &lt;h3&gt; &lt;h4&gt; &lt;h5&gt; &lt;h6&gt; &lt;strong&gt; &lt;em&gt; &lt;abbr&gt; &lt;acronym&gt; &lt;address&gt; &lt;bdo&gt; &lt;blockquote&gt; &lt;cite&gt; &lt;q&gt; &lt;code&gt; &lt;ins&gt; &lt;del&gt; &lt;dfn&gt; &lt;kbd&gt; &lt;pre&gt; &lt;samp&gt; &lt;var&gt; &lt;br&gt;
+            </b>
+
+            <hr class="line">
+
+            <h2 class="subtext">HTML LINK TAGS</h2>
+            <b class="center">&lt;a&gt; &lt;base&gt;</b>
+
+            <hr class="line">
+
+
+            <h2 class="subtext">HTML IMAGE AND OBJET TAGS</h2>
+            <b class="center">&lt;img&gt; &lt;area&gt; &lt;map&gt; &lt;param&gt; &lt;object&gt;</b>
+
+            <hr class="line">
+
+
+            <h2 class="subtext">HTML LIST TAGS</h2>
+            <b class="center">&lt;ul&gt; &lt;ol&gt; &lt;li&gt; &lt;dl&gt; &lt;dt&gt; &lt;dd&gt;</b>
+
+            <hr class="line">
+
+
+            <h2 class="subtext">HTML TABLE TAGS</h2>
+            <b class="center">&lt;table&gt; &lt;tr&gt; &lt;th&gt; &lt;tbody&gt; &lt;thead&gt; &lt;tfoot&gt; &lt;col&gt; &lt;colgroup&gt; &lt;caption&gt;</b>
+            
+            <hr class="line">
+
+
+            <h2 class="subtext">HTML FORM TAGS</h2>
+            <b class="center">&lt;form&gt; &lt;input&gt; &lt;textarea&gt; &lt;select&gt; &lt;option&gt; &lt;tfoot&gt; &lt;optgroup&gt; &lt;button&gt; &lt;label&gt; &lt;fieldset&gt; &lt;legend&gt; </b>
+
+
+            <a href="#title">
+                <button class="buttonUP"></button>
+            </a>
+
+        </article>
+
+        <article id="section7" class="section">
+            <h1>HTML TAGS</h1>
+            <br/>
+            <br/>
+
+            <div class="note">
+                <p><strong>NOTE:</strong> Here HTML Tags Listrepresents newly added Elements in HTML5.</p>
+            </div>
+
+
+            <table id="table_tags">
+                <thead>
+                    <tr>
+                        <th class="dcf-txt-center" scope="col">TAG NAME</th>
+                        <th class="dcf-txt-center" scope="col">DESCRIPTION</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th class="dcf-txt-center" scope="row"><span>&lt;!-- --&gt;</span></th>
+                        <td class="dcf-txt-center" data-label="DESCRIPTION">This tag is used to apply comment in an HTML document.</td>
+                    </tr>
+                    <tr>
+                        <th class="dcf-txt-center" scope="row"><span>&lt;DOCTYPE&gt;</span></th>
+                        <td class="dcf-txt-center" data-label="DESCRIPTION">This tag is used to specify the version of HTML
+            </td>
+                    </tr>
+                    <tr>
+                        <th class="dcf-txt-center" scope="row"><span>&lt;a&gt;</span></th>
+                        <td class="dcf-txt-center" data-label="DESCRIPTION">It is termed as anchor tag and it creates a hyperlink or link.</td>
+                    </tr>
+                    <tr>
+                        <th class="dcf-txt-center" scope="row"><span>&lt;abbr&gt;</span></th>
+                        <td class="dcf-txt-center" data-label="DESCRIPTION">It defines an abbreviation for a phrase or longer word.
+            </td>
+                    </tr>
+                    <tr>
+                        <th class="dcf-txt-center" scope="row"><span>&lt;acronym&gt;</span></th>
+                        <td class="dcf-txt-center" data-label="DESCRIPTION"><span>It defines acronym for a word. <b>(Not supported in HTML5)</b></span></td>
+                    </tr>
+                    <tr>
+                        <th class="dcf-txt-center" scope="row"><span>&lt;address&gt;</span></th>
+                        <td class="dcf-txt-center" data-label="DESCRIPTION">It defines the author's contact information of the HTML article
+            </td>
+                    </tr>
+                    <tr>
+                        <th class="dcf-txt-center" scope="row"><span>&lt;applet	&gt;</span></th>
+                        <td class="dcf-txt-center" data-label="DESCRIPTION"><span>It defines an embedded Java applet. <b>(Not supported in HTML5)</b>
+            </span></td>
+                    </tr>
+                    <tr>
+                        <th class="dcf-txt-center" scope="row"><span>&lt;area&gt;</span></th>
+                        <td class="dcf-txt-center" data-label="DESCRIPTION">It defines the area of an image map.
+            </td>
+                    </tr>
+                    <tr>
+                        <th class="dcf-txt-center" scope="row"><span>&lt;article&gt;</span></th>
+                        <td class="dcf-txt-center" data-label="DESCRIPTION">It defines the self-contained content.
+            </td>
+                    </tr>
+                    <tr>
+                        <th class="dcf-txt-center" scope="row"><span>&lt;aside&gt;</span></th>
+                        <td class="dcf-txt-center" data-label="DESCRIPTION">It defines content aside from main content. Mainly represented as sidebar.
+            </td>
+                    </tr>
+                    <tr>
+                        <th class="dcf-txt-center" scope="row"><span>&lt;audio&gt;</span></th>
+                        <td class="dcf-txt-center" data-label="DESCRIPTION">It is used to embed sound content in HTML document.
+            </td>
+                    </tr>
+                    <tr>
+                        <th class="dcf-txt-center" scope="row"><span>&lt;b&gt;</span></th>
+                        <td class="dcf-txt-center" data-label="DESCRIPTION">It is used to make a text bold.
+            </td>
+                    </tr>
+                    <tr>
+                        <th class="dcf-txt-center" scope="row"><span>&lt;base&gt;</span></th>
+                        <td class="dcf-txt-center" data-label="DESCRIPTION"><span>This tag is used to set default font, size and color for all elements of document. <b>(Not supported in HTML5)</b>
+            </span></td>
+                    </tr>
+                    <tr>
+                        <th class="dcf-txt-center" scope="row"><span>&lt;bdi&gt;</span></th>
+                        <td class="dcf-txt-center" data-label="DESCRIPTION">This tag is used to provide isolation for that part of text which may be formatted in different directions from its surrounding text.
+            </td>
+                    </tr>
+                    <tr>
+                        <th class="dcf-txt-center" scope="row"><span>&lt;bdo&gt;</span></th>
+                        <td class="dcf-txt-center" data-label="DESCRIPTION">It is used to override the current text direction.
+            </td>
+                    </tr>
+                    <tr>
+                        <th class="dcf-txt-center" scope="row"><span>&lt;big&gt;</span></th>
+                        <td class="dcf-txt-center" data-label="DESCRIPTION"><span>This tag is used to make font size one level larger than its surrounding content. <b>(Not supported in HTML5)</b>
+            </span></td>
+                    </tr>
+                    <tr>
+                        <th class="dcf-txt-center" scope="row"><span>&lt;blockquote&gt;</span></th>
+                        <td class="dcf-txt-center" data-label="DESCRIPTION">This tag is used to make font size one level larger than its surrounding content. <b>(Not supported in HTML5)</b>   
+            </td>
+                    </tr>
+                    <tr>
+                        <th class="dcf-txt-center" scope="row"><span>&lt;body&gt;</span></th>
+                        <td class="dcf-txt-center" data-label="DESCRIPTION">It is used to define the body section of an HTML document.
+            </td>
+                    </tr>
+                    <tr>
+                        <th class="dcf-txt-center" scope="row"><span>&lt;br&gt;</span></th>
+                        <td class="dcf-txt-center" data-label="DESCRIPTION">It is used to apply single line break.
+            </td>
+                    </tr>
+                    <tr>
+                        <th class="dcf-txt-center" scope="row"><span>&lt;button&gt;</span></th>
+                        <td class="dcf-txt-center" data-label="DESCRIPTION">It is used to represent a clickable button
+            </td>
+                    </tr>
+                    <tr>
+                        <th class="dcf-txt-center" scope="row"><span>&lt;canvas&gt;</span></th>
+                        <td class="dcf-txt-center" data-label="DESCRIPTION">It is used to provide a graphics space within a web document.
+            </td>
+                    </tr>
+                    <tr>
+                        <th class="dcf-txt-center" scope="row"><span>&lt;caption&gt;</span></th>
+                        <td class="dcf-txt-center" data-label="DESCRIPTION">It is used to define a caption for a table.
+            </td>
+                    </tr>
+                    <tr>
+                        <th class="dcf-txt-center" scope="row"><span>&lt;center&gt;</span></th>
+                        <td class="dcf-txt-center" data-label="DESCRIPTION"><span>It is used to align the content in center. <b>(Not supported in HTML5)</b>
+            </span></td>
+                    </tr>
+                    <tr>
+                        <th class="dcf-txt-center" scope="row"><span>&lt;cite&gt;</span></th>
+                        <td class="dcf-txt-center" data-label="DESCRIPTION">It is used to define the title of the work, book, website, etc.
+            </td>
+                    </tr>
+                    <tr>
+                        <th class="dcf-txt-center" scope="row"><span>&lt;code&gt;</span></th>
+                        <td class="dcf-txt-center" data-label="DESCRIPTION">It is used to display a part of programming code in an HTML document.
+            </td>
+                    </tr>
+                    <tr>
+                        <th class="dcf-txt-center" scope="row"><span>&lt;col&gt;</span></th>
+                        <td class="dcf-txt-center" data-label="DESCRIPTION">It defines a column within a table which represent common properties of columns and used with the &lt;colgroup&gt; element.
+            </td>
+                    </tr>
+                    <tr>
+                        <th class="dcf-txt-center" scope="row"><span>&lt;colgroup&gt;</span></th>
+                        <td class="dcf-txt-center" data-label="DESCRIPTION">It is used to define group of columns in a table.
+            </td>
+                    </tr>
+                    <tr>
+                        <th class="dcf-txt-center" scope="row"><span>&lt;data&gt;</span></th>
+                        <td class="dcf-txt-center" data-label="DESCRIPTION">It is used to link the content with the machine-readable translation.
+            </td>
+                    </tr>
+                    <tr>
+                        <th class="dcf-txt-center" scope="row"><span>&lt;datalist&gt;</span></th>
+                        <td class="dcf-txt-center" data-label="DESCRIPTION">It is used to provide a predefined list for input option.
+            </td>
+                    </tr>
+                    <tr>
+                        <th class="dcf-txt-center" scope="row"><span>&lt;dd&gt;</span></th>
+                        <td class="dcf-txt-center" data-label="DESCRIPTION">It is used to provide definition/description of a term in description list.
+            </td>
+                    </tr>
+                    <tr>
+                        <th class="dcf-txt-center" scope="row"><span>&lt;del&gt;</span></th>
+                        <td class="dcf-txt-center" data-label="DESCRIPTION">It defines a text which has been deleted from the document.
+            </td>
+                    </tr>
+                    <tr>
+                        <th class="dcf-txt-center" scope="row"><span>&lt;details&gt;</span></th>
+                        <td class="dcf-txt-center" data-label="DESCRIPTION">It defines additional details which user can either view or hide.
+            </td>
+                    </tr>
+                    <tr>
+                        <th class="dcf-txt-center" scope="row"><span>&lt;dfn&gt;</span></th>
+                        <td class="dcf-txt-center" data-label="DESCRIPTION">It is used to indicate a term which is defined within a sentence/phrase.
+            </td>
+                    </tr>
+                    <tr>
+                        <th class="dcf-txt-center" scope="row"><span>&lt;dialog&gt;</span></th>
+                        <td class="dcf-txt-center" data-label="DESCRIPTION">It defines a dialog box or other interactive components.
+            </td>
+                    </tr>
+                    <tr>
+                        <th class="dcf-txt-center" scope="row"><span>&lt;dir&gt;</span></th>
+                        <td class="dcf-txt-center" data-label="DESCRIPTION"><span>It is used as container for directory list of files. <b>(Not supported in HTML5)</b>
+            </span></td>
+                    </tr>
+                    <tr>
+                        <th class="dcf-txt-center" scope="row"><span>&lt;div&gt;</span></th>
+                        <td class="dcf-txt-center" data-label="DESCRIPTION">It defines a division or section within HTML document.
+            </td>
+                    </tr>
+                    <tr>
+                        <th class="dcf-txt-center" scope="row"><span>&lt;dl&gt;</span></th>
+                        <td class="dcf-txt-center" data-label="DESCRIPTION">It is sued to define a description list.
+            </td>
+                    </tr>
+                    <tr>
+                        <th class="dcf-txt-center" scope="row"><span>&lt;dt&gt;</span></th>
+                        <td class="dcf-txt-center" data-label="DESCRIPTION">It is used to define a term in description list.
+            </td>
+                    </tr>
+                    <tr>
+                        <th class="dcf-txt-center" scope="row"><span>&lt;em&gt;</span></th>
+                        <td class="dcf-txt-center" data-label="DESCRIPTION">It is used to emphasis the content applied within this element.
+            </td>
+                    </tr>
+                    <tr>
+                        <th class="dcf-txt-center" scope="row"><span>&lt;embed&gt;</span></th>
+                        <td class="dcf-txt-center" data-label="DESCRIPTION">It is used as embedded container for external file/application/media, etc.
+            </td>
+                    </tr>
+                    <tr>
+                        <th class="dcf-txt-center" scope="row"><span>&lt;fielset&gt;</span></th>
+                        <td class="dcf-txt-center" data-label="DESCRIPTION">It is used to group related elements/labels within a web form.
+            </td>
+                    </tr>
+                    <tr>
+                        <th class="dcf-txt-center" scope="row"><span>&lt;figcaption&gt;</span></th>
+                        <td class="dcf-txt-center" data-label="DESCRIPTION"><span>It is used to add a caption or explanation for the &lt;figure&gt; element.
+            </span></td>
+                    </tr>
+                    <tr>
+                        <th class="dcf-txt-center" scope="row"><span>&lt;figure&gt;</span></th>
+                        <td class="dcf-txt-center" data-label="DESCRIPTION">It is used to define the self-contained content, and s mostly refer as single unit.
+            </td>
+                    </tr>
+                    <tr>
+                        <th class="dcf-txt-center" scope="row"><span>&lt;font&gt;</span></th>
+                        <td class="dcf-txt-center" data-label="DESCRIPTION">It defines the font, size, color, and face for the content. &lt;b&gt;(Not supported in HTML5)&lt;b&gt;</td>
+                    </tr>
+                    <tr>
+                        <th class="dcf-txt-center" scope="row"><span>&lt;footer&gt;</span></th>
+                        <td class="dcf-txt-center" data-label="DESCRIPTION">It defines the footer section of a webpage.
+            </td>
+                    </tr>
+                    <tr>
+                        <th class="dcf-txt-center" scope="row"><span>&lt;form&gt;</span></th>
+                        <td class="dcf-txt-center" data-label="DESCRIPTION">It is used to define an HTML form.
+            </td>
+                    </tr>
+                    <tr>
+                        <th class="dcf-txt-center" scope="row"><span>&lt;frame&gt;</span></th>
+                        <td class="dcf-txt-center" data-label="DESCRIPTION"><span>It defines a particular area of webpage which can contain another HTML file. <b>(Not supported in HTML5)</b>
+            </span></td>
+                    </tr>
+                    <tr>
+                        <th class="dcf-txt-center" scope="row"><span>&lt;frameset&gt;</span></th>
+                        <td class="dcf-txt-center" data-label="DESCRIPTION"><span>It defines group of Frames. <b>(Not supported in HTML5)</b>
+            </span></td>
+                    </tr>
+                    <tr>
+                        <th class="dcf-txt-center" scope="row"><span>&lt;h1&gt; to &lt;h6&gt;</span></th>
+                        <td class="dcf-txt-center" data-label="DESCRIPTION">It defines headings for an HTML document from level 1 to level 6.
+            </td>
+                    </tr>
+                    <tr>
+                        <th class="dcf-txt-center" scope="row"><span>&lt;head&gt;</span></th>
+                        <td class="dcf-txt-center" data-label="DESCRIPTION">It defines the head section of an HTML document.
+            </td>
+                    </tr>
+                    <tr>
+                        <th class="dcf-txt-center" scope="row"><span>&lt;header&gt;</span></th>
+                        <td class="dcf-txt-center" data-label="DESCRIPTION">It defines the header of a section or webpage.
+            </td>
+                    </tr>
+                    <tr>
+                        <th class="dcf-txt-center" scope="row"><span>&lt;hr&gt;</span></th>
+                        <td class="dcf-txt-center" data-label="DESCRIPTION">It is used to apply thematic break between paragraph-level elements.
+            </td>
+                    </tr>
+                    <tr>
+                        <th class="dcf-txt-center" scope="row"><span>&lt;html&gt;</span></th>
+                        <td class="dcf-txt-center" data-label="DESCRIPTION">It represents root of an HTML document.
+            </td>
+                    </tr>
+                    <tr>
+                        <th class="dcf-txt-center" scope="row"><span>&lt;i&gt;</span></th>
+                        <td class="dcf-txt-center" data-label="DESCRIPTION">It is used to represent a text in some different voice.
+            </td>
+                    </tr>
+                    <tr>
+                        <th class="dcf-txt-center" scope="row"><span>&lt;iframe&gt;</span></th>
+                        <td class="dcf-txt-center" data-label="DESCRIPTION">It defines an inline frame which can embed other content.
+            </td>
+                    </tr>
+                    <tr>
+                        <th class="dcf-txt-center" scope="row"><span>&lt;img&gt;</span></th>
+                        <td class="dcf-txt-center" data-label="DESCRIPTION">It is used to insert an image within an HTML document.
+            </td>
+                    </tr>
+                    <tr>
+                        <th class="dcf-txt-center" scope="row"><span>&lt;input&gt;</span></th>
+                        <td class="dcf-txt-center" data-label="DESCRIPTION">It defines an input field within an HTML form.
+            </td>
+                    </tr>
+                    <tr>
+                        <th class="dcf-txt-center" scope="row"><span>&lt;ins&gt;</span></th>
+                        <td class="dcf-txt-center" data-label="DESCRIPTION">It represent text that has been inserted within an HTML document.
+            </td>
+                    </tr>
+                    <tr>
+                        <th class="dcf-txt-center" scope="row"><span>&lt;isindex&gt;</span></th>
+                        <td class="dcf-txt-center" data-label="DESCRIPTION"><span>It is used to display search string for current document. <b>(Not supported in HTML5)</b>
+            </span></td>
+                    </tr>
+                    <tr>
+                        <th class="dcf-txt-center" scope="row"><span>&lt;kbd&gt;</span></th>
+                        <td class="dcf-txt-center" data-label="DESCRIPTION">It is used to define keyboard input.
+            </td>
+                    </tr>
+                    <tr>
+                        <th class="dcf-txt-center" scope="row"><span>&lt;label&gt;</span></th>
+                        <td class="dcf-txt-center" data-label="DESCRIPTION">It defines a text label for the input field of form.
+            </td>
+                    </tr>
+                    <tr>
+                        <th class="dcf-txt-center" scope="row"><span>&lt;legend&gt;</span></th>
+                        <td class="dcf-txt-center" data-label="DESCRIPTION">It defines a caption for content of &lt;fieldset&gt;
+            </td>
+                    </tr>
+                    <tr>
+                        <th class="dcf-txt-center" scope="row"><span>&lt;li&gt;</span></th>
+                        <td class="dcf-txt-center" data-label="DESCRIPTION">It is used to represent items in list.
+            </td>
+                    </tr>
+                    <tr>
+                        <th class="dcf-txt-center" scope="row"><span>&lt;link&gt;</span></th>
+                        <td class="dcf-txt-center" data-label="DESCRIPTION">It represents a relationship between current document and an external resource.
+            </td>
+                    </tr>
+                    <tr>
+                        <th class="dcf-txt-center" scope="row"><span>&lt;main&gt;</span></th>
+                        <td class="dcf-txt-center" data-label="DESCRIPTION">It represents the main content of an HTML document.
+            </td>
+                    </tr>
+                    <tr>
+                        <th class="dcf-txt-center" scope="row"><span>&lt;map&gt;</span></th>
+                        <td class="dcf-txt-center" data-label="DESCRIPTION">It defines an image map with active areas.
+            </td>
+                    </tr>
+                    <tr>
+                        <th class="dcf-txt-center" scope="row"><span>&lt;mark&gt;</span></th>
+                        <td class="dcf-txt-center" data-label="DESCRIPTION">It represents a highlighted text.
+            </td>
+                    </tr>
+                    <tr>
+                        <th class="dcf-txt-center" scope="row"><span>&lt;marquee&gt;</span></th>
+                        <td class="dcf-txt-center" data-label="DESCRIPTION"><span>It is used to insert the scrolling text or an image either horizontally or vertically. <b>(Not supported in HTML5)</b></span></td>
+                    </tr>
+                    <tr>
+                        <th class="dcf-txt-center" scope="row"><span>&lt;menu&gt;</span></th>
+                        <td class="dcf-txt-center" data-label="DESCRIPTION">It is used for creating a menu list of commands.
+            </td>
+                    </tr>
+                    <tr>
+                        <th class="dcf-txt-center" scope="row"><span>&lt;meta&gt;</span></th>
+                        <td class="dcf-txt-center" data-label="DESCRIPTION">It defines metadata of an HTML document.
+            </td>
+                    </tr>
+                    <tr>
+                        <th class="dcf-txt-center" scope="row"><span>&lt;meter&gt;</span></th>
+                        <td class="dcf-txt-center" data-label="DESCRIPTION">It defines scalar measurement with known range or fractional value.
+            </td>
+                    </tr>
+                    <tr>
+                        <th class="dcf-txt-center" scope="row"><span>&lt;nav&gt;</span></th>
+                        <td class="dcf-txt-center" data-label="DESCRIPTION">It represents section of page to represent navigation links.
+            </td>
+                    </tr>
+                    <tr>
+                        <th class="dcf-txt-center" scope="row"><span>&lt;noframes&gt;</span></th>
+                        <td class="dcf-txt-center" data-label="DESCRIPTION"><span>It provides alternate content to represent in browser which does not support the &lt;frame&gt;elements. 
+            <b>(Not supported in HTML5)</b>
+            </span></td>
+                    </tr>
+                    <tr>
+                        <th class="dcf-txt-center" scope="row"><span>&lt;noscript&gt;</span></th>
+                        <td class="dcf-txt-center" data-label="DESCRIPTION">It provides an alternative content if a script type is not supported in browser.
+            </td>
+                    </tr>
+                    <tr>
+                        <th class="dcf-txt-center" scope="row"><span>&lt;objet&gt;</span></th>
+                        <td class="dcf-txt-center" data-label="DESCRIPTION">It is used to embed an object in HTML file.
+            </td>
+                    </tr>
+                    <tr>
+                        <th class="dcf-txt-center" scope="row"><span>&lt;ol&gt;</span></th>
+                        <td class="dcf-txt-center" data-label="DESCRIPTION">It defines an ordered list of items.
+            </td>
+                    </tr>
+                    <tr>
+                        <th class="dcf-txt-center" scope="row"><span>&lt;optgroup&gt;</span></th>
+                        <td class="dcf-txt-center" data-label="DESCRIPTION">It is used to group the options of a drop-down list.
+            </td>
+                    </tr>
+                    <tr>
+                        <th class="dcf-txt-center" scope="row"><span>&lt;option&gt;</span></th>
+                        <td class="dcf-txt-center" data-label="DESCRIPTION">It is used to define options or items in a drop-down list.
+            </td>
+                    </tr>
+                    <tr>
+                        <th class="dcf-txt-center" scope="row"><span>&lt;output&gt;</span></th>
+                        <td class="dcf-txt-center" data-label="DESCRIPTION">It is used to define options or items in a drop-down list.
+            </td>
+                    </tr>
+                    <tr>
+                        <th class="dcf-txt-center" scope="row"><span>&lt;p&gt;</span></th>
+                        <td class="dcf-txt-center" data-label="DESCRIPTION">It represents a paragraph in an HTML document.
+            </td>
+                    </tr>
+                    <tr>
+                        <th class="dcf-txt-center" scope="row"><span>&lt;param&gt;</span></th>
+                        <td class="dcf-txt-center" data-label="DESCRIPTION">It defines parameter for an &lt;object&gt; element
+            </td>
+                    </tr>
+                    <tr>
+                        <th class="dcf-txt-center" scope="row"><span>&lt;picture&gt;</span></th>
+                        <td class="dcf-txt-center" data-label="DESCRIPTION">It defines more than one source element and one image element.
+            </td>
+                    </tr>
+                    <tr>
+                        <th class="dcf-txt-center" scope="row"><span>&lt;pre&gt;</span></th>
+                        <td class="dcf-txt-center" data-label="DESCRIPTION">It defines preformatted text in an HTML document.
+            </td>
+                    </tr>
+                    <tr>
+                        <th class="dcf-txt-center" scope="row"><span>&lt;progress&gt;</span></th>
+                        <td class="dcf-txt-center" data-label="DESCRIPTION">It defines the progress of a task within HTML document.
+            </td>
+                    </tr>
+                    <tr>
+                        <th class="dcf-txt-center" scope="row"><span>&lt;q&gt;</span></th>
+                        <td class="dcf-txt-center" data-label="DESCRIPTION">It defines short inline quotation.
+            </td>
+                    </tr>
+                    <tr>
+                        <th class="dcf-txt-center" scope="row"><span>&lt;rp&gt;</span></th>
+                        <td class="dcf-txt-center" data-label="DESCRIPTION">It defines an alternative content if browser does not supports ruby annotations.
+            </td>
+                    </tr>
+                    <tr>
+                        <th class="dcf-txt-center" scope="row"><span>&lt;rt&gt;</span></th>
+                        <td class="dcf-txt-center" data-label="DESCRIPTION">It defines explanations and pronunciations in ruby annotations.
+            </td>
+                    </tr>
+                    <tr>
+                        <th class="dcf-txt-center" scope="row"><span>&lt;ruby&gt;</span></th>
+                        <td class="dcf-txt-center" data-label="DESCRIPTION">It is used to represent ruby annotations.
+            </td>
+                    </tr>
+                    <tr>
+                        <th class="dcf-txt-center" scope="row"><span>&lt;s&gt;</span></th>
+                        <td class="dcf-txt-center" data-label="DESCRIPTION">It render text which is no longer correct or relevant.
+            </td>
+                    </tr>
+                    <tr>
+                        <th class="dcf-txt-center" scope="row"><span>&lt;samp&gt;</span></th>
+                        <td class="dcf-txt-center" data-label="DESCRIPTION">It is used to represent sample output of a computer program.
+            </td>
+                    </tr>
+                    <tr>
+                        <th class="dcf-txt-center" scope="row"><span>&lt;script&gt;</span></th>
+                        <td class="dcf-txt-center" data-label="DESCRIPTION">It is used to declare the JavaScript within HTML document.
+            </td>
+                    </tr>
+                    <tr>
+                        <th class="dcf-txt-center" scope="row"><span>&lt;selection&gt;</span></th>
+                        <td class="dcf-txt-center" data-label="DESCRIPTION">It defines a generic section for a document.
+            </td>
+                    </tr>
+                    <tr>
+                        <th class="dcf-txt-center" scope="row"><span>&lt;select&gt;</span></th>
+                        <td class="dcf-txt-center" data-label="DESCRIPTION">It represents a control which provides a menu of options.
+            </td>
+                    </tr>
+                    <tr>
+                        <th class="dcf-txt-center" scope="row"><span>&lt;small&gt;</span></th>
+                        <td class="dcf-txt-center" data-label="DESCRIPTION">It is used to make text font one size smaller than documents base font size.
+            </td>
+                    </tr>
+                    <tr>
+                        <th class="dcf-txt-center" scope="row"><span>&lt;source&gt;</span></th>
+                        <td class="dcf-txt-center" data-label="DESCRIPTION">It defines multiple media recourses for different media element such as &lt;picture&gt;, &lt;video&gt;, and &lt;audio&gt; element.
+            </td>
+                    </tr>
+                    <tr>
+                        <th class="dcf-txt-center" scope="row"><span>&lt;span&gt;</span></th>
+                        <td class="dcf-txt-center" data-label="DESCRIPTION">It is used for styling and grouping inline.
+            </td>
+                    </tr>
+                    <tr>
+                        <th class="dcf-txt-center" scope="row"><span>&lt;strike&gt;</span></th>
+                        <td class="dcf-txt-center" data-label="DESCRIPTION"><span>It is used to render strike through the text. <b>(Not supported in HTML5)</b>
+            </span></td>
+                    </tr>
+                    <tr>
+                        <th class="dcf-txt-center" scope="row"><span>&lt;strong&gt;</span></th>
+                        <td class="dcf-txt-center" data-label="DESCRIPTION">It is used to define important text.
+            </td>
+                    </tr>
+                    <tr>
+                        <th class="dcf-txt-center" scope="row"><span>&lt;style&gt;</span></th>
+                        <td class="dcf-txt-center" data-label="DESCRIPTION">It is used to contain style information for an HTML document.
+            </td>
+                    </tr>
+                    <tr>
+                        <th class="dcf-txt-center" scope="row"><span>&lt;sub&gt;</span></th>
+                        <td class="dcf-txt-center" data-label="DESCRIPTION">It defines a text which displays as a subscript text.
+            </td>
+                    </tr>
+                    <tr>
+                        <th class="dcf-txt-center" scope="row"><span>&lt;summary&gt;</span></th>
+                        <td class="dcf-txt-center" data-label="DESCRIPTION">It defines summary which can be used with &lt;details&gt; tag.
+            </td>
+                    </tr>
+                    <tr>
+                        <th class="dcf-txt-center" scope="row"><span>&lt;sup&gt;</span></th>
+                        <td class="dcf-txt-center" data-label="DESCRIPTION">It defines a text which represent as superscript text.
+            </td>
+                    </tr>
+                    <tr>
+                        <th class="dcf-txt-center" scope="row"><span>&lt;svg&gt;</span></th>
+                        <td class="dcf-txt-center" data-label="DESCRIPTION">It is used as container of SVG (Scalable Vector Graphics).
+            </td>
+                    </tr>
+                    <tr>
+                        <th class="dcf-txt-center" scope="row"><span>&lt;table&gt;</span></th>
+                        <td class="dcf-txt-center" data-label="DESCRIPTION">It is used to present data in tabular form or to create a table within HTML document.
+            </td>
+                    </tr>
+                    <tr>
+                        <th class="dcf-txt-center" scope="row"><span>&lt;tbody&gt;</span></th>
+                        <td class="dcf-txt-center" data-label="DESCRIPTION">It represents the body content of an HTML table and used along with &lt;thead&gt; and &lt;tfoot&gt;.
+            </td>
+                    </tr>
+                    <tr>
+                        <th class="dcf-txt-center" scope="row"><span>&lt;td&gt;</span></th>
+                        <td class="dcf-txt-center" data-label="DESCRIPTION">It is used to define cells of an HTML table which contains table data
+            </td>
+                    </tr>
+                    <tr>
+                        <th class="dcf-txt-center" scope="row"><span>&lt;template&gt;</span></th>
+                        <td class="dcf-txt-center" data-label="DESCRIPTION">It is used to define cells of an HTML table which contains table data
+            </td>
+                    </tr>
+                    <tr>
+                        <th class="dcf-txt-center" scope="row"><span>&lt;textarea&gt;</span></th>
+                        <td class="dcf-txt-center" data-label="DESCRIPTION">It is used to define multiple line input, such as comment, feedback, and review, etc.
+            </td>
+                    </tr>
+                    <tr>
+                        <th class="dcf-txt-center" scope="row"><span>&lt;tfont&gt;</span></th>
+                        <td class="dcf-txt-center" data-label="DESCRIPTION">It defines the footer content of an HTML table.
+            </td>
+                    </tr>
+                    <tr>
+                        <th class="dcf-txt-center" scope="row"><span>&lt;th&gt;</span></th>
+                        <td class="dcf-txt-center" data-label="DESCRIPTION">It defines the head cell of an HTML table.
+            </td>
+                    </tr>
+                    <tr>
+                        <th class="dcf-txt-center" scope="row"><span>&lt;thead&gt;</span></th>
+                        <td class="dcf-txt-center" data-label="DESCRIPTION">It defines the header of an HTML table. It is used along with &lt;tbody&gt; and &lt;tfoot&gt; tags.
+            </td>
+                    </tr>
+                    <tr>
+                        <th class="dcf-txt-center" scope="row"><span>&lt;time&gt;</span></th>
+                        <td class="dcf-txt-center" data-label="DESCRIPTION">It is used to define data/time within an HTML document.
+            </td>
+                    </tr>
+                    <tr>
+                        <th class="dcf-txt-center" scope="row"><span>&lt;title&gt;</span></th>
+                        <td class="dcf-txt-center" data-label="DESCRIPTION">It defines the title or name of an HTML document.
+            </td>
+                    </tr>
+                    <tr>
+                        <th class="dcf-txt-center" scope="row"><span>&lt;tr&gt;</span></th>
+                        <td class="dcf-txt-center" data-label="DESCRIPTION">It defines the row cells in an HTML table
+            </td>
+                    </tr>
+                    <tr>
+                        <th class="dcf-txt-center" scope="row"><span>&lt;track&gt;</span></th>
+                        <td class="dcf-txt-center" data-label="DESCRIPTION">It is used to define text tracks for &lt;audio&gt; and &lt;video&gt; elements.
+            </td>
+                    </tr>
+                    <tr>
+                        <th class="dcf-txt-center" scope="row"><span>&lt;tt&gt;</span></th>
+                        <td class="dcf-txt-center" data-label="DESCRIPTION"><span>It is used to define teletype text. <b>(Not supported in HTML5)</b>
+            </span></td>
+                    </tr>
+                    <tr>
+                        <th class="dcf-txt-center" scope="row"><span>&lt;u&gt;</span></th>
+                        <td class="dcf-txt-center" data-label="DESCRIPTION">It is used to render enclosed text with an underline.
+            </td>
+                    </tr>
+                    <tr>
+                        <th class="dcf-txt-center" scope="row"><span>&lt;ul&gt;</span></th>
+                        <td class="dcf-txt-center" data-label="DESCRIPTION">It defines unordered list of items.
+            </td>
+                    </tr>
+                    <tr>
+                        <th class="dcf-txt-center" scope="row"><span>&lt;var&gt;</span></th>
+                        <td class="dcf-txt-center" data-label="DESCRIPTION">It defines variable name used in mathematical or programming context.
+            </td>
+                    </tr>
+                    <tr>
+                        <th class="dcf-txt-center" scope="row"><span>&lt;video&gt;</span></th>
+                        <td class="dcf-txt-center" data-label="DESCRIPTION">It is used to embed a video content with an HTML document
+            </td>
+                    </tr>
+                    <tr>
+                        <th class="dcf-txt-center" scope="row"><span>&lt;wbr&gt;</span></th>
+                        <td class="dcf-txt-center" data-label="DESCRIPTION">It defines a position within text where break line is possible.
+            </td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <br/>
+            <br/>
+
+            <a href="#title">
+                <button class="buttonUP"></button>
+            </a>
+            
+
+
+        </article>
+
+        
+
+    </article>
+    
+    <footer id="mainFooter">
+ 
+        <div class="footerSection">
+            <h3>Underline Academy</h3>
+            <p>All rights reserved 2022</p>
+        </div>
+
+
+        <div class="footerSection">
+            <h3>This webpage uses the following technologies</h3>
+
+            <ul>
+                <li><a href="https://www.w3schools.com/html/html_intro.asp" target="_blank"><img alt="html5 image" src="../Index/Images/html5.svg"/></a></li>
+                <li><a href="https://www.w3schools.com/css/css_intro.asp" target="_blank"><img alt="css3 image"  src="../Index/Images/css3.svg"/></a></li>
+                <li><a href="https://www.w3schools.com/js/js_intro.asp" target="_blank"><img alt="javascript image" src="../Index/Images/javascript.svg"></a></li>
+            </ul>
+
+        </div>
+
+
+        <div class="footerSection">
+            <h3>This webpage is under a Creative Common license</h3>
+
+            <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Licencia Creative Commons"  src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a>
+
+            <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons License Non comercial attribution 4.0 International</a>
+
+        </div>
+
+    </footer>
+
+</body>
+</html>
