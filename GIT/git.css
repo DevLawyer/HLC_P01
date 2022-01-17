@@ -1,0 +1,214 @@
+/*
+This is the stylesheet of the git.html for the First Practice of the
+HLC module.
+*/
+
+code{
+    font-family: monospace;
+    font-weight: bold;
+    padding: 2px;
+    border-radius: 5px;
+}
+
+.codeText
+{
+    background-color: #D6D5D5;
+}
+
+.codeTextBrown
+{
+    background-color: #b69d74;
+}
+
+.codeLine
+{
+    padding: 5px;
+    display: block;
+    width: 100%;
+    background-color: #D6D5D5;
+}
+
+.codeLineBrown
+{
+    padding: 5px;
+    display: block;
+    width: 100%;
+    background-color: #b69d74;
+}
+
+.listItemUL
+{
+    text-align: justify;
+    padding-bottom: 10px;
+    list-style: circle;
+}
+
+.listItemOL
+{
+    text-align: justify;
+    padding-bottom: 10px;
+}
+
+#section4
+{
+    align-items: center;
+}
+
+.centerP
+{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.logoImage
+{
+    text-decoration: none;
+    padding: 10px 30px 10px 30px;
+    height: 60px;
+    transition: 0.5s;
+}
+
+.logoImage:hover
+{
+    transform: scale(1.5);
+}
+
+.textLink
+{
+    text-decoration: none;
+    font-weight: bold;
+    color: #1F2839;
+    transition: 0.3s;
+}
+
+.textLink:hover
+{
+    font-size: 20px;
+    background-color: #b69d74;
+    color: #F5F5EF;
+}
+
+.collapseSection
+{
+    text-decoration: none;
+    cursor: default;
+    color: black;
+}
+
+.innerP
+{
+    height: 20px;
+    overflow: hidden;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: justify;
+    border-left: 6px solid #1F2839;
+    border-radius: 10px;
+    background-color: #b69d74;
+}
+
+.innerP h3, h4
+{
+    color: #1F2839;
+    margin-bottom: 20px;
+}
+
+.buttonClose
+{
+    border: none;
+    color: #1F2839;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    height: 40px;
+    width: 100%;
+    border-radius: 10px;
+    background: url("arrowUP.png") no-repeat;
+    padding: 10px;
+	background-position: center;
+    background-color: #b69d74;
+    margin-top: 10px;
+}
+
+.buttonClose:hover
+{
+    color: #F5F5EF;
+    transition: 0.3s;
+    background-image: url("arrowUP_Hover.png");
+}
+
+.buttonCloseTable 
+{
+    border: none;
+    color: #1F2839;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+    padding: 10px;
+	background-position: center;
+    background-color: #b69d74;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.buttonCloseTable:hover
+{
+    color: #F5F5EF;
+    transition: 0.3s;
+}
+
+.commands 
+{
+    border-collapse: collapse;
+    text-align: justify;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid #b69d74;
+    border-radius: 30px;
+}
+
+#commands 
+{
+    overflow: hidden;
+}
+
+.commands td, .commands th 
+{
+    border: 1px #b69d74;
+    padding: 20px;
+}
+
+.commands tr:nth-child(even)
+{
+    background-color: #f2f2f2;
+}
+
+.commands tr:hover 
+{
+    background-color: #ddd;
+}
+
+.commands th 
+{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #1F2839;
+    color: white;
+    text-align: center;
+} 
+
+#docLink
+{
+    display: none;
+    align-self: center;
+}

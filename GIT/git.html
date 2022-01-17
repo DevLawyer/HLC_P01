@@ -1,0 +1,727 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>GIT</title>
+    <link rel="stylesheet" href="../Index/common.css"/>
+    <link rel="stylesheet" href="git.css"/>
+    <script src="git.js"></script>
+</head>
+
+<body>
+    <header>
+		<h1 class="title">Underline Academy</h1>
+		<h1 class="title">Underline AcademY</h1>
+        <h1 id="title" class="title">Git a great tool for developers</h1>
+	</header>
+
+    <nav class="navigationMenu">
+		<ul class="menu">
+			<li><a href="./GIT/git.html">Git</a>
+				<ul class="submenu">
+					<li class="backgrounds"><a href="#">About GIT</a></li>
+					<li class="backgrounds"><a href="#">GIT advantages</a></li>
+					<li class="backgrounds"><a href="#">GIT disadvantages</a></li>
+					<li class="backgrounds"><a href="#">Download</a></li>
+					<li class="backgrounds"><a href="#">Installation Guide</a></li>
+					<li class="backgrounds"><a href="#">First Steps</a></li>
+					<li class="backgrounds"><a href="#">Commands</a></li>
+					<li class="backgrounds"><a href="#">Third-party tools</a></li>
+				</ul>
+			</li>
+			<li><a href="./CSS3/css3.html">CSS3</a>
+				<ul class="submenu">
+					<li class="backgrounds"><a href="#">What is CSS3?</a></li>
+					<li class="backgrounds"><a href="#">How to insert CSS3?</a></li>
+					<li class="backgrounds"><a href="#">Selectors in CSS3</a></li>
+					<li class="backgrounds"><a href="#">Colors in CSS3</a></li>
+					<li class="backgrounds"><a href="#">Learn about CSS3</a></li>
+				</ul>
+			</li>
+			<li><a href="./Salvador/html5.html">HTML5</a>
+				<ul class="submenu">
+					<li class="backgrounds"><a href="#">About HTML5</a></li>
+					<li class="backgrounds"><a href="#">Advantages</a></li>
+					<li class="backgrounds"><a href="#">Disadvantages</a></li>
+					<li class="backgrounds"><a href="#">HTML features</a></li>
+					<li class="backgrounds"><a href="#">The basics of HTML</a></li>
+					<li class="backgrounds"><a href="#">Start in HTML</a></li>
+					<li class="backgrounds"><a href="#">HTML tags</a></li>
+				</ul>
+			</li>
+			<li><a href="./AntonioM/DevTools.html">Browser Developer Tools</a>
+				<ul class="submenu">
+					<li class="backgrounds"><a href="#">What's it?</a></li>
+					<li class="backgrounds"><a href="#">How to open?</a></li>
+					<li class="backgrounds"><a href="#">Elements panel</a></li>
+					<li class="backgrounds"><a href="#">Console panel</a></li>
+					<li class="backgrounds"><a href="#">Sources panel</a></li>
+					<li class="backgrounds"><a href="#">Network panel</a></li>
+					<li class="backgrounds"><a href="#">Timeline panel</a></li>
+					<li class="backgrounds"><a href="#">Application panel</a></li>
+					<li class="backgrounds"><a href="#">Security panel</a></li>
+				</ul>
+			</li>
+			<li><a href="./VSCode/vscode.html">Visual Studio Code</a>
+				<ul class="submenu">
+					<li class="backgrounds"><a href="#">What is VS Code?</a></li>
+					<li class="backgrounds"><a href="#">Intellisense</a></li>
+					<li class="backgrounds"><a href="#">Run and Debug</a></li>
+					<li class="backgrounds"><a href="#">Built-in Git</a></li>
+					<li class="backgrounds"><a href="#">Extensions</a></li>
+				</ul>
+			</li>
+		</ul>
+	</nav>
+    
+    <button id="openbtn" class="openbtn" onclick="openNav()">☰</button>
+    
+    <aside id="sidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">X</a>
+        <h2 class="subtitle">CONTENT</h2>
+        <p class="sideContent" >
+            <a href="#section1">ABOUT GIT</a><br/>
+        </p>
+        <p class="sideContent" >
+            <a href="#section2">GIT ADVANTAGES</a><br/>
+        </p>
+
+        <p class="sideContent">
+            <a href="#section3">GIT DISADVANTAGES</a><br/>
+        </p>
+        <p class="sideContent"> 
+            <a href="#section4">DOWNLOAD</a><br/>
+        </p>
+
+        <p class="sideContent">
+            <a href="#section5">INSTALLATION GUIDE</a><br/>
+        </p>
+
+        <p class="sideContent">
+            <a href="#section6">FIRST STEPS</a><br/>
+        </p>
+
+        <p class="sideContent">
+            <a href="#section7">COMMANDS</a><br/>
+        </p>
+
+        <p class="sideContent">
+            <a href="#section8">THIRD-PARTY TOOLS</a>
+        </p>
+    </aside>
+
+    
+    <div>
+        <h1 id="title" class="title">Git a great tool for developers</h1>
+    </div>
+    
+    
+    <section id="container" class="container">
+        <article id="section1" class="section">
+            <h1>About Git</h1>
+            <a href="https://git-scm.com/" target="_blank">
+                <image class="mainImage" src="Images/Git_logo.png" alt="GIT Logo"></image>
+            </a>
+            <p>
+                Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency. 
+                <br/>
+                <br/>
+                Git is easy to learn and has a tiny footprint with lightning fast performance. It outclasses SCM tools like Subversion, CVS, Perforce, and ClearCase with features like cheap local branching, convenient staging areas, and multiple workflows.<br/>
+            </p>
+            <a href="#title">
+                <button class="buttonUP"></button>
+            </a>
+        </article>
+
+        <article id="section2" class="section">
+            <h1>Git Advantages</h1>
+            <p>
+                Git have a too many advantages but the most important are the following:
+                <ul class="advantagesList">
+                    <li class="listItemUL">Good distributed model as each developer gets a local repository with a full history of commits which makes git fast compared to other VCs.</li>
+                    <li class="listItemUL">Branching capabilities and merging are easy (as they are cheap), good data integrity.</li>
+                    <li class="listItemUL">They are free and open-source we can easily download the source code and performs changes to it. They can handle larger projects efficiently.</li>
+                    <li class="listItemUL">The push/pull operations are faster with a simple command. They save time and developers can fetch and create pull requests without switching.</li>
+                    <li class="listItemUL">Data redundancy and replications. Add ons can be written in many languages.</li>
+                    <li class="listItemUL">They have good and faster network performance and superior disk utilization and they think about its data like a sequence of snapshots.</li>
+                    <li class="listItemUL">The object model is very simple and minimizes push/pull data transfers.</li>
+                </ul>
+            </p>
+            <a href="#title">
+                <button class="buttonUP"></button>
+            </a>
+        </article>
+
+        <article id="section3" class="section">
+            <h1>Git Disadvantages</h1>
+            <p>
+                Nevertheless, "not all that glitters is gold" in Git. There are disadvantages as well. Some of them are the following:
+                <ul class="disadvantagesList">
+                    <li class="listItemUL">Git requires technical excellence and it is slower on windows. They have tedious command lines to input and don’t track renames.</li>
+                    <li class="listItemUL">They have poor GUI and usability. And also, they take a lot of resources which slows down the performance.</li>
+                    <li class="listItemUL">Git doesn’t support checking out sub-trees. For each project, the central service would need to be set up for multiple package repositories.</li>
+                    <li class="listItemUL">It lacks window support and doesn’t track empty folders.</li>
+                    <li class="listItemUL">Git needs multiple branches to support parallel developments used by the developers.</li>
+                    <li class="listItemUL">There is no built-in access control and doesn’t support binary files.</li>
+                    <li class="listItemUL">They do not provide access control mechanisms in case of security.</li>
+                    <li class="listItemUL">The process of Packing is very expensive completely.</li>
+                </ul>
+            </p>
+            <a href="#title">
+                <button class="buttonUP"></button>
+            </a>
+        </article>
+
+        <article id="section4" class="section">
+            <h1>Download</h1>
+            <p>
+                In the page for downloads you can find some downloads options. You can download the latest source release of Git for the following operating systems:
+            </p>
+            <p class="centerP">
+                <a href="https://git-scm.com/download/linux" target="_blank">
+                    <image class="logoImage" src="Images/linuxIcon.png" alt="Linux Logo" title="Download for Linux/Unix"></image>
+                </a>
+
+                <a href="https://git-scm.com/download/win" target="_blank">
+                    <image class="logoImage" src="Images/windowsIcon.png" alt="Windows Logo" title="Download for Windows"></image>
+                </a>
+
+                <a href="https://git-scm.com/download/mac" target="_blank">
+                    <image class="logoImage" src="Images/macIcon.png" alt="MAC Logo" title="Download for Mac"></image>
+                </a>
+            </p>
+
+            <p>
+                Secondly, you can download various Git logos in PNG and EPS format. This page have one of them in the beginning.
+                <p class="centerP">
+                    <a href="https://git-scm.com/downloads/logos" target="_blank">
+                        <image class="logoImage" src="Images/Git_logo_black.png" alt="Git Black Logo" title="Download Git Logos"></image>
+                    </a>
+                </p>
+            </p>
+
+            <p>
+                Finally, you can download GUI Clients too but this tools will be explained in <a class="textLink" href="#section8">Third-party Tools</a> section. 
+            </p>
+
+            <a href="#title">
+                <button class="buttonUP"></button>
+            </a>
+        </article>
+
+        <article id="section5" class="section">
+            <h1>Installation Guide</h1>
+            <p>
+                The installation process is detailed in the following section and links for each operating system:
+                
+                <div id="linuxSection" class="innerP">
+                    <a href="javascript:void(0)" class="collapseSection" onclick="openSection('linuxSection')">
+                        <h3>Linux/Unix</h3>
+                    </a>
+                        <p>
+                            If you want to install the basic Git tools on Linux via a binary installer, you can generally do so through the package management tool that comes with your distribution. If you’re on Fedora (or any closely-related RPM-based distribution, such as RHEL or CentOS), you can use <code class="codeText">dnf</code>:
+                            <br/>
+                            <br/>
+                            <code class="codeLine">$ sudo dnf install git-all</code>
+                            <br/>
+                            If you’re on a Debian-based distribution, such as Ubuntu, try apt:
+                            <br/>
+                            <br/>
+                            <code class="codeLine">$ sudo apt install git-all</code>
+                            <br/>
+                            For more options, there are instructions for installing on several different Unix distributions on the Git website. <a class="textLink" href="#section4">Go to Downloads</a>
+                        </p>
+
+                    <button class="buttonClose" onclick="openSection('linuxSection')"></button>
+                </div>
+
+                <div id="winSection"  class="innerP">
+                    <a href="javascript:void(0)" class="collapseSection" onclick="openSection('winSection')">
+                        <h3>Windows</h3>
+                    </a>
+                        <p>
+                            <ol>
+                                <li class="listItemOL">Click the download link for Windows and allow the download to complete.</li>
+                                <li class="listItemOL">Browse to the download location (or use the download shortcut in your browser). Double-click the file to extract and launch the installer.</li>
+                                <li class="listItemOL">Allow the app to make changes to your device by clicking Yes on the User Account Control dialog that opens.</li>
+                                <li class="listItemOL">Review the GNU General Public License, and when you’re ready to install, click Next.</li>
+                                <li class="listItemOL">The installer will ask you for an installation location. Leave the default, unless you have reason to change it, and click Next.</li>
+                                <li class="listItemOL">A component selection screen will appear. Leave the defaults unless you have a specific need to change them and click Next.</li>
+                                <li class="listItemOL">The installer will offer to create a start menu folder. Simply click Next.</li>
+                                <li class="listItemOL">Select a text editor you’d like to use with Git. Use the drop-down menu to select your text editor and click Next.</li>
+                                <li class="listItemOL">The next step allows you to choose a different name for your initial branch. The default is 'master.' Unless you're working in a team that requires a different name, leave the default option and click Next.</li>
+                                <li class="listItemOL">This installation step allows you to change the PATH environment. The PATH is the default set of directories included when you run a command from the command line. Leave this on the middle (recommended) selection and click Next.</li>
+                                <li class="listItemOL">The installer now asks which SSH client you want Git to use. Git already comes with its own SSH client, so if you don't need a specific one, leave the default option and click Next.</li>
+                                <li class="listItemOL">The next option relates to server certificates. Most users should use the default. If you’re working in an Active Directory environment, you may need to switch to Windows Store certificates. Click Next.</li>
+                                <li class="listItemOL">The next selection converts line endings. It is recommended that you leave the default selection. This relates to the way data is formatted and changing this option may cause problems. Click Next.</li>
+                                <li class="listItemOL">Choose the terminal emulator you want to use. The default MinTTY is recommended, for its features. Click Next.</li>
+                                <li class="listItemOL">The installer now asks what the <code class="codeText">git pull</code> command should do. The default option is recommended unless you specifically need to change its behavior. Click Next to continue with the installation.</li>
+                                <li class="listItemOL">Next you should choose which credential helper to use. Git uses credential helpers to fetch or save credentials. Leave the default option as it is the most stable one, and click Next.</li>
+                                <li class="listItemOL">The default options are recommended, however this step allows you to decide which extra option you would like to enable. If you use symbolic links, which are like shortcuts for the command line, tick the box. Click Next.</li>
+                                <li class="listItemOL">Depending on the version of Git you’re installing, it may offer to install experimental features. Unless you are feeling adventurous, leave them unchecked and click Install.</li>
+                                <li class="listItemOL">Once the installation is complete, tick the boxes to view the Release Notes or Launch Git Bash, then click Finish.</li>
+                            </ol>
+                            Git has two modes of use a bash scripting shell (or command line) and a graphical user interface (GUI).
+                            To launch Git Bash open the Windows Start menu, type git bash and press Enter (or click the application icon).
+                            <br/>
+                            <br/>
+                        </p>
+                        <p class="centerP">
+                            <image class="logoImage" src="Images/BIGBash_Icon.png" alt="Git Bash Logo" title="Git Bash Icon"></image>
+                        </p>
+
+                    <button class="buttonClose" onclick="openSection('winSection')"></button>
+                </div>
+                
+                <div id="macSection" class="innerP">
+                    <a href="javascript:void(0)" class="collapseSection" onclick="openSection('macSection')">
+                        <h3>Mac</h3>
+                    </a>
+                        <p>
+                            <h4>Install Git with Mac OS installer</h4>
+                            <ol>
+                                <li class="listItemOL">Firstly, you need to download the Git installer from the website.<a class="textLink" href="#section4">Go to Downloads</a></li>
+                                <li class="listItemOL">Then, the installer offer you the instructions to install Git in your device.</li>
+                                <li class="listItemOL">
+                                    After installing Git, open a Terminal to show the correct installation. You can verify this with the follogin command:
+                                    <br/>
+                                    <br/>
+                                    <code class="codeLine">$ sudo apt install git-all</code>
+                                    <br/>
+                                </li>
+                                <li class="listItemOL">
+                                    Now, for configure the user and the e-mail you must use the commands below (you must change "User Name" and the e-amil to your information):
+                                    <br/>
+                                    <br/>
+                                    <code class="codeLine">$ git config --global user.name "User Name"</code>
+                                    <br/>
+                                    <code class="codeLine">$ git config --global user.email "e_mail@domainname.com"</code>
+                                    <br/>
+                                </li>
+                            </ol>
+                        </p>
+                        <p>
+                            <h4>Install Git with Homebrew</h4>
+                            If you installed the script installs Homebrew for manage your packages, do the instructions below:
+                            <br/>
+                            <br/>
+                            <ol>
+                                <li class="listItemOL">
+                                    Open your terminal and install Git through Homebrew.
+                                    <br/>
+                                    <br/>
+                                    <code class="codeLine">$ brew install git</code>
+                                    <br/>
+                                </li>
+                                <li class="listItemOL">
+                                    Then, you must verify the Git version and the correct installation of Git, for it you can use the following command:
+                                    <br/>
+                                    <br/>
+                                    <code class="codeLine">$ git --version</code>
+                                    <br/>
+                                </li>
+                                <li class="listItemOL">
+                                    To configure the user name and e-mail, you can use the same commands as before (you must change "User Name" and the e-amil to your information).
+                                    <br/>
+                                    <br/>
+                                    <code class="codeLine">$ git config --global user.name "User Name"</code>
+                                    <br/>
+                                    <code class="codeLine">$ git config --global user.email "e_mail@domainname.com"</code>
+                                    <br/>
+                                </li>
+                            </ol>
+                        </p>
+                        <p>
+                            <h4>Install Git with MacPorts</h4>
+                            Finally, if you have installed in your device MacPorts for package management do the instructions below:
+                            <br/>
+                            <br/>
+                            <ol>
+                                <li class="listItemOL">
+                                    Open your terminal and update MacPorts with this command:
+                                    <br/>
+                                    <br/>
+                                    <code class="codeLine">$ sudo port selfupdate</code>
+                                    <br/>
+                                </li>
+                                <li class="listItemOL">
+                                    Secondly, you need to search the most recently avaliable ports and variants, for it you have the following commands:
+                                    <br/>
+                                    <br/>
+                                    <code class="codeLine">$ port search git</code>
+                                    <br/>
+                                    <code class="codeLine">$ port variants git</code>
+                                    <br/>
+                                </li>
+                                <li class="listItemOL">
+                                    Then install Git with bash, the auxiliary application Keychain of OS X and documents 
+                                    <br/>
+                                    <br/>
+                                    <code class="codeLine">$ sudo port install git +bash_completion+credential_osxkeychain+doc</code>
+                                    <br/>
+                                </li>
+                                <li class="listItemOL">
+                                    Now, configure your user and e-mail (you must change User Name and the e-amil to your information). This information will link with all the commits what you do.
+                                    <br/>
+                                    <br/>
+                                    <code class="codeLine">$ git config --global user.name "User Name"</code>
+                                    <br/>
+                                    <code class="codeLine">$ git config --global user.email "e_mail@domainname.com"</code>
+                                </li>
+                            </ol>
+                        </p>
+
+                    <button class="buttonClose" onclick="openSection('macSection')"></button>
+                </div>
+
+            </p>
+            <a href="#title">
+                <button class="buttonUP"></button>
+            </a>
+        </article>
+
+        <article id="section6" class="section">
+            <h1>First Steps</h1>
+            <p>
+                <h4>What is a Git repository?</h4>
+
+                A Git repository is a directory of your project whereby you can save diferent versions of your code which you can access whenever you want.
+            </p>
+
+            <p>
+                <h4>Create a new repository.</h4>
+                To create a new repository, firstly, you need to create a directory that wil storage your repository.
+                <br/>
+                <br/>
+                <ol>
+                    <li class="listItemOL">
+                        To create a new repository, firstly, you need to create a directory that wil storage your repository.
+                    </li>
+                    <li class="listItemOL">
+                        Secondly, open the Git Bash and navigate to directory previously created, then use the following command:
+                        <br/>
+                        <br/>
+                        <code class="codeLineBrown">
+                            cd /path/to/your/existing/code
+                            <br/>
+                            git init
+                        </code>
+                        <br/>
+                        This command will be used once and it will create a new subdirectory so called <code class="codeTextBrown">.git</code>.
+                        <br/>
+                        <br/>
+                        You can also use the following command.
+                        <br/>
+                        <br/>
+                        <code class="codeLineBrown">
+                            git init &lt;project directory&gt;
+                        </code>
+                    </li>
+                </ol>
+            </p>
+
+            <p>
+                <h4>How do I clone a Git repository?</h4>
+                If your repository was created in a central repository, you need to clone it in a local directory to work on it. To clone the repository you need the command below:
+                <br/>
+                <br/>
+                <code class="codeLineBrown">
+                    git clone &lt;repo url&gt;
+                </code>
+            </p>
+
+            <p>
+                <h4>Save changes in Git.</h4>
+                Firstly, from Git Bash go to the directory which contains your repository the execute the following command for each file with change since the creation or the latest commit that you want to add in the commit.
+                <br>
+                <br>
+                <code class="codeLineBrown">
+                    git add nameFile.ext
+                </code>
+                <br/>
+                You can also use the following command to add all the files with changes.
+                <br/>
+                <br/>
+                <code class="codeLineBrown">
+                    git add --all
+                </code>
+                <br>
+                When you added all the files you must use the next command to commit the changes:
+                <br>
+                <br>
+                <code class="codeLineBrown">
+                    git commit -m "message for the commit"
+                </code>
+            </p>
+
+            <a href="#title">
+                <button class="buttonUP"></button>
+            </a>
+        </article>
+
+        <article id="section7" class="section">
+            <h1>Commands</h1>
+            <div>
+                <table id="commandsTable" class="commands">
+                    <thead>
+                        <tr>
+                            <th class="dcf-txt-center" scope="col">COMMAND</th>
+                            <th class="dcf-txt-center" scope="col">DESCRIPTION</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th class="dcf-txt-center" scope="row">
+                                <code>git init</code>
+                            </th>
+                            <td class="dcf-txt-center" data-label="DESCRIPTION">
+                                Create the directory .git which contains the changes of your repository.
+                            </td>
+                        </tr>
+                        <tr>
+                            <th class="dcf-txt-center" scope="row">
+                                <code>git clone</code>
+                            </th>
+                            <td class="dcf-txt-center" data-label="DESCRIPTION">
+                                Clone a repository created in a central repository in your PC.
+                            </td>
+                        </tr>
+                        <tr>
+                            <th class="dcf-txt-center" scope="row">
+                                <code>git config</code>
+                            </th>
+                            <td class="dcf-txt-center" data-label="DESCRIPTION">
+                                Get and set repository or global options.
+                            </td>
+                        </tr>
+                        <tr>
+                            <th class="dcf-txt-center" scope="row">
+                                <code>git add</code>
+                            </th>
+                            <td class="dcf-txt-center" data-label="DESCRIPTION">
+                                This command updates the index using the current content found in the working tree, to prepare the content staged for the next commit.
+                            </td>
+                        </tr>
+                        <tr>
+                            <th class="dcf-txt-center" scope="row">
+                                <code>git commit</code>
+                            </th>
+                            <td class="dcf-txt-center" data-label="DESCRIPTION">
+                                Create a new commit containing the current contents of the index and the given log message describing the changes.
+                            </td>
+                        </tr>
+                        <tr>
+                            <th class="dcf-txt-center" scope="row">
+                                <code>git diff</code>
+                            </th>
+                            <td class="dcf-txt-center" data-label="DESCRIPTION">
+                                Show changes between the working tree and the index or a tree, changes between the index and a tree, changes between two trees, changes resulting from a merge, changes between two blob objects, or changes between two files on disk.
+                            </td>
+                        </tr>
+                        <tr>
+                            <th class="dcf-txt-center" scope="row">
+                                <code>git stash</code>
+                            </th>
+                            <td class="dcf-txt-center" data-label="DESCRIPTION">
+                                Use this command when you want to record the current state of the working directory and the index, but want to go back to a clean working directory.
+                            </td>
+                        </tr>
+                        <tr>
+                            <th class="dcf-txt-center" scope="row">
+                                <code>.gitignore</code>
+                            </th>
+                            <td class="dcf-txt-center" data-label="DESCRIPTION">
+                                Specifies intentionally untracked files to ignore.
+                            </td>
+                        </tr>
+                        <tr>
+                            <th class="dcf-txt-center" scope="row">
+                                <code>git status</code>
+                            </th>
+                            <td class="dcf-txt-center" data-label="DESCRIPTION">
+                                Displays paths that have differences between the index file and the current HEAD commit, paths that have differences between the working tree and the index file, and paths in the working tree that are not tracked by Git.
+                            </td>
+                        </tr>
+                        <tr>
+                            <th class="dcf-txt-center" scope="row">
+                                <code>git tag</code>
+                            </th>
+                            <td class="dcf-txt-center" data-label="DESCRIPTION">
+                                Create, list, delete or verify a tag object signed with GPG.
+                            </td>
+                        </tr>
+                        <tr>
+                            <th class="dcf-txt-center" scope="row">
+                                <code>git blame</code>
+                            </th>
+                            <td class="dcf-txt-center" data-label="DESCRIPTION">
+                                Show what revision and author last modified each line of a file.
+                            </td>
+                        </tr>
+                        <tr>
+                            <th class="dcf-txt-center" scope="row">
+                                <code>git checkout</code>
+                            </th>
+                            <td class="dcf-txt-center" data-label="DESCRIPTION">
+                                Switch branches or restore working tree files.
+                            </td>
+                        </tr>
+                        <tr>
+                            <th class="dcf-txt-center" scope="row">
+                                <code>git clean</code>
+                            </th>
+                            <td class="dcf-txt-center" data-label="DESCRIPTION">
+                                Remove untracked files from the working tree.
+                            </td>
+                        </tr>
+                        <tr>
+                            <th class="dcf-txt-center" scope="row">
+                                <code>git revert</code>
+                            </th>
+                            <td class="dcf-txt-center" data-label="DESCRIPTION">
+                                Given one or more existing commits, revert the changes that the related patches introduce, and record some new commits that record them.
+                            </td>
+                        </tr>
+                        <tr>
+                            <th class="dcf-txt-center" scope="row">
+                                <code>git reset</code>
+                            </th>
+                            <td class="dcf-txt-center" data-label="DESCRIPTION">
+                                Reset current HEAD to the specified state.
+                            </td>
+                        </tr>
+                        <tr>
+                            <th class="dcf-txt-center" scope="row">
+                                <code>git rm</code>
+                            </th>
+                            <td class="dcf-txt-center" data-label="DESCRIPTION">
+                                Remove files matching pathspec from the index, or from the working tree and the index. 
+                            </td>
+                        </tr>
+                        <tr>
+                            <th class="dcf-txt-center" scope="row">
+                                <code>git remote</code>
+                            </th>
+                            <td class="dcf-txt-center" data-label="DESCRIPTION">
+                                Manage the set of repositories ("remotes") whose branches you track.
+                            </td>
+                        </tr>
+                        <tr>
+                            <th class="dcf-txt-center" scope="row">
+                                <code>git fetch</code>
+                            </th>
+                            <td class="dcf-txt-center" data-label="DESCRIPTION">
+                                Fetch branches and/or tags (collectively, "refs") from one or more other repositories, along with the objects necessary to complete their histories. Remote-tracking branches are updated.
+                            </td>
+                        </tr>
+                        <tr>
+                            <th class="dcf-txt-center" scope="row">
+                                <code>git push</code>
+                            </th>
+                            <td class="dcf-txt-center" data-label="DESCRIPTION">
+                                Updates remote refs using local refs, while sending objects necessary to complete the given refs.
+                            </td>
+                        </tr>
+                        <tr>
+                            <th class="dcf-txt-center" scope="row">
+                                <code>git pull</code>
+                            </th>
+                            <td class="dcf-txt-center" data-label="DESCRIPTION">
+                                Incorporates changes from a remote repository into the current branch.
+                            </td>
+                        </tr>
+                        <tr>
+                            <th class="dcf-txt-center" scope="row">
+                                <code>git branch</code>
+                            </th>
+                            <td class="dcf-txt-center" data-label="DESCRIPTION">
+                                List, create, or delete branches.
+                            </td>
+                        </tr>
+                        <tr>
+                            <th class="dcf-txt-center" scope="row">
+                                <code>git merge &lt;branch&gt;</code>
+                            </th>
+                            <td class="dcf-txt-center" data-label="DESCRIPTION">
+                                Incorporates changes from the named commits (since the time their histories diverged from the current branch) into the current branch. This command is used by git pull to incorporate changes from another repository and can be used by hand to merge changes from one branch into another.
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <p id="docLink" class="centerP">
+                    <a href="https://git-scm.com/docs" target="_blank">
+                        <image class="logoImage" src="Images/GIT_Icon.png" alt="Git Icon" title="Git Commands"></image>
+                    </a>
+                </p>
+
+                <button id="buttonCloseTable" class="buttonCloseTable" onclick="opentable()">Open Table</button>
+            </div>
+
+            <a href="#title">
+                <button class="buttonUP"></button>
+            </a>
+        </article>
+
+        <article id="section8" class="section">
+            <h1>Third-party Tools</h1>
+
+            <p>Git comes with built-in GUI tools (git-gui, gitk), but there are several third-party tools for users looking for a platform-specific experience. The most famous Git GUI Clients are the following:</p>
+
+            <div class="centerP">
+                <a href="https://github.com/" target="_blank">
+                    <image class="logoImage" src="Images/Github_logo.png" alt="Github Logo" title="Github Website"></image>
+                </a>
+                <a href="https://www.sourcetreeapp.com/" target="_blank">
+                    <image class="logoImage" src="Images/Sourcetree_logo.svg" alt="Sourcetree Logo" title="Sourcetree Website"></image>
+                </a>
+                <a href="https://tortoisegit.org/" target="_blank">
+                    <image class="logoImage" src="Images/Tortoisegit_logo.png" alt="Tortoise Logo" title="TortoiseGit Website"></image>
+                </a>
+                <a href="http://gitextensions.github.io/" target="_blank">
+                    <image class="logoImage" src="Images/Gitextensions_logo.png" alt="Git Extensions Logo" title="Git Extensions Website"></image>
+                </a>
+            </div>
+            <p>Git Graphical User Interface (GUI) clients are tools that provide alternative visualization for Git.</p>
+
+            <p>You can find more <a class="textLink" href="https://git-scm.com/downloads/guis" target="_blank">Git GUI Clients</a> in the Git Website.</p>
+
+            <a href="#title">
+                <button class="buttonUP"></button>
+            </a>
+        </article>
+    </section>
+    
+    <footer>
+ 
+        <article class="footerSection">
+            <h3>Underline Academy</h3>
+            <p>All rights reserved 2022</p>
+        </article>
+
+
+        <article class="footerSection">
+            <h3>This webpage uses the following technologies</h3>
+
+            <ul>
+                <li><a href="https://www.w3schools.com/html/html_intro.asp" target="_blank"><img alt="html5 image" src="./images/html5.svg"/></a></li>
+                <li><a href="https://www.w3schools.com/css/css_intro.asp" target="_blank"><img alt="css3 image"  src="./images/css3.svg"/></a></li>
+                <li><a href="https://www.w3schools.com/js/js_intro.asp" target="_blank"><img alt="javascript image" src="./images/javascript.svg"></a></li>
+            </ul>
+
+        </article>
+
+
+        <article class="footerSection">
+            <h3>This webpage is under a Creative Common license</h3>
+
+            <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Licencia Creative Commons"  src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a>
+
+            <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons License Non comercial attribution 4.0 International</a>
+
+        </article>
+
+    </footer>
+
+</body>
