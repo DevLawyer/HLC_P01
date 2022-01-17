@@ -1,0 +1,68 @@
+/*ARTICULO 1*/
+#section1{
+  display: block;
+}
+
+.contenedorS1{
+  display: flex;
+}
+
+.textoS1{
+  align-self: center;
+}
+
+.imgS1{
+  padding: 1%;
+}
+
+.btn1{
+  margin-left: auto;
+}
+
+/*ARTICULO 2*/
+#tablaS2{
+  margin: 5px;
+  align-items: center;
+  align-self: center;;
+  text-align: center;
+}
+
+#tablaS2 td{
+  width: 50%;
+  background-color: #8B8B8B;
+  border-radius: 10px;
+}
+
+/*ARTICULO 3*/
+.videoS3{
+  margin-top: 0%;
+  margin-bottom: 0%;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+/*ARTICULO 4*/
+.comando{
+  background-color: #F0F0F0;
+  margin-left: 7%;
+  margin-right: 7%;
+  border-radius: 10px;
+}
+
+.comando p{
+  margin-left: 5%;
+}
+
+.textoS4{
+  margin: 2%;
+}
+
+.imgS4{
+  padding-left: 30%;
+  padding-right: 30%;
+}
+
+/*ARTICULO 4*/
+#section6 ul{
+  margin-left: 4%;
+}
