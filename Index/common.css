@@ -18,26 +18,32 @@ body
 }
 
 /* HEADER style. */
+header
+{
+    transition: 0.5s;
+}
 
 h1.mainTitle{
+    margin-left: 360px;
+    margin-right: 10px;
     text-align:center;
     clear: both;
     padding: 50px;
     color: #1F2839;
     transition: 0.5s;
-    margin-left: 350px;
+    border-radius: 10px;
 }
 
 h1.title
 {
+    margin-left: 360px;
+    margin-right: 10px;
     text-align:center;
     clear: both;
     padding: 50px;
     color: #1F2839;
-    margin-left: 350px;
     transition: 0.5s;
 }
-
 
 h1.mainTitle:last-child{
     text-align: center;
@@ -53,7 +59,6 @@ h1.mainTitle:last-child{
 
 
 /*NAV style*/
-
 *{
     margin: 0;
     padding: 0;
@@ -61,11 +66,13 @@ h1.mainTitle:last-child{
 }
 
 .navigationMenu {
-    margin: 33px;
-    margin-right: 10px;
+    margin-top: 33px;
     background: #1f2839;
-    border-radius: 6px;
+    text-align: center;
+    transition: 0.5s;
+    border-radius: 10px;
     margin-left: 360px;
+    margin-right: 10px;
 }
 
 .navigationMenu  > ul{
@@ -89,7 +96,6 @@ h1.mainTitle:last-child{
     color: #b69d74;
     transition: all 1.2s;
 }
-
 
 .submenu{
     position: absolute;
@@ -118,7 +124,6 @@ h1.mainTitle:last-child{
     transition: all 1.2s;
 }
 
-
 .menu > li:hover .submenu{
     display: block;
 }
@@ -129,13 +134,11 @@ h1.mainTitle:last-child{
 
 
 /*ASIDE style*/
-
-
 .sidebar
 {
+    position: fixed;
     height: 100%;
     width: 350px;
-    position: fixed;
     left: 0;
     padding-top: 50px;
     margin-right: 10px;
@@ -144,7 +147,7 @@ h1.mainTitle:last-child{
     transition: 0.5s;
     background: #1F2839;
     color: #F5F5EF;
-    margin-top: -220px;
+    
 }
 
 .sidebar>a
@@ -174,7 +177,7 @@ h2.subtitle
 {
     background-color: #b69d74;
     color: #1F2839;
-    font-size: 17px;
+    font-size: 20px;
     transition: 0.5s;
 }
 
@@ -188,8 +191,6 @@ h2.subtitle
 
 
 /*SECTION style*/
-
-
 .container
 {
     margin-left: 360px;
@@ -241,19 +242,43 @@ article
     background-color: #F5F5EF;
 }
 
+/* BUTTON to go up. */
+.buttonUP
+{
+    border: none;
+    color: #1F2839;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    height: 40px;
+    width: 40px;
+    border-radius: 10px;
+    background: url("../Index/Images/arrowUP.png") no-repeat;
+    padding: 10px;
+	background-position: center;
+    background-color: #b69d74;
+}
+
+.buttonUP:hover
+{
+    color: #F5F5EF;
+    transition: 0.3s;
+    background-image: url("../Index/Images/arrowUP_Hover.png");
+    background-color: #1F2839;
+}
+
 
 /*footer*/
 
 footer{
-
-    
     margin-left: 360px; 
     height: 200px;
     background: #1f2839;
     color: white;
     border-radius: 10px;
     margin-right: 10px;
-
+    transition: 0.5s;
 }
 
 footer a{
