@@ -1,5 +1,5 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="en">
 
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
@@ -10,8 +10,73 @@
 </head>
 
 <body>
+    <header>
+		<h1 class="title">Underline Academy</h1>
+		<h1 class="title">Underline AcademY</h1>
+        <h1 id="title" class="title">Git a great tool for developers</h1>
+	</header>
+
+    <nav class="navigationMenu">
+		<ul class="menu">
+			<li><a href="./GIT/git.html">Git</a>
+				<ul class="submenu">
+					<li class="backgrounds"><a href="#">About GIT</a></li>
+					<li class="backgrounds"><a href="#">GIT advantages</a></li>
+					<li class="backgrounds"><a href="#">GIT disadvantages</a></li>
+					<li class="backgrounds"><a href="#">Download</a></li>
+					<li class="backgrounds"><a href="#">Installation Guide</a></li>
+					<li class="backgrounds"><a href="#">First Steps</a></li>
+					<li class="backgrounds"><a href="#">Commands</a></li>
+					<li class="backgrounds"><a href="#">Third-party tools</a></li>
+				</ul>
+			</li>
+			<li><a href="./CSS3/css3.html">CSS3</a>
+				<ul class="submenu">
+					<li class="backgrounds"><a href="#">What is CSS3?</a></li>
+					<li class="backgrounds"><a href="#">How to insert CSS3?</a></li>
+					<li class="backgrounds"><a href="#">Selectors in CSS3</a></li>
+					<li class="backgrounds"><a href="#">Colors in CSS3</a></li>
+					<li class="backgrounds"><a href="#">Learn about CSS3</a></li>
+				</ul>
+			</li>
+			<li><a href="./Salvador/html5.html">HTML5</a>
+				<ul class="submenu">
+					<li class="backgrounds"><a href="#">About HTML5</a></li>
+					<li class="backgrounds"><a href="#">Advantages</a></li>
+					<li class="backgrounds"><a href="#">Disadvantages</a></li>
+					<li class="backgrounds"><a href="#">HTML features</a></li>
+					<li class="backgrounds"><a href="#">The basics of HTML</a></li>
+					<li class="backgrounds"><a href="#">Start in HTML</a></li>
+					<li class="backgrounds"><a href="#">HTML tags</a></li>
+				</ul>
+			</li>
+			<li><a href="./AntonioM/DevTools.html">Browser Developer Tools</a>
+				<ul class="submenu">
+					<li class="backgrounds"><a href="#">What's it?</a></li>
+					<li class="backgrounds"><a href="#">How to open?</a></li>
+					<li class="backgrounds"><a href="#">Elements panel</a></li>
+					<li class="backgrounds"><a href="#">Console panel</a></li>
+					<li class="backgrounds"><a href="#">Sources panel</a></li>
+					<li class="backgrounds"><a href="#">Network panel</a></li>
+					<li class="backgrounds"><a href="#">Timeline panel</a></li>
+					<li class="backgrounds"><a href="#">Application panel</a></li>
+					<li class="backgrounds"><a href="#">Security panel</a></li>
+				</ul>
+			</li>
+			<li><a href="./VSCode/vscode.html">Visual Studio Code</a>
+				<ul class="submenu">
+					<li class="backgrounds"><a href="#">What is VS Code?</a></li>
+					<li class="backgrounds"><a href="#">Intellisense</a></li>
+					<li class="backgrounds"><a href="#">Run and Debug</a></li>
+					<li class="backgrounds"><a href="#">Built-in Git</a></li>
+					<li class="backgrounds"><a href="#">Extensions</a></li>
+				</ul>
+			</li>
+		</ul>
+	</nav>
     
     <button id="openbtn" class="openbtn" onclick="openNav()">☰</button>
+    
     <aside id="sidebar" class="sidebar">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">X</a>
         <h2 class="subtitle">CONTENT</h2>
@@ -47,16 +112,16 @@
     </aside>
 
     
-    <header>
+    <div>
         <h1 id="title" class="title">Git a great tool for developers</h1>
-    </header>
+    </div>
     
     
     <section id="container" class="container">
         <article id="section1" class="section">
             <h1>About Git</h1>
             <a href="https://git-scm.com/" target="_blank">
-                <image class="mainImage" src="Images/Git_logo.png"></image>
+                <image class="mainImage" src="Images/Git_logo.png" alt="GIT Logo"></image>
             </a>
             <p>
                 Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency. 
@@ -115,15 +180,15 @@
             </p>
             <p class="centerP">
                 <a href="https://git-scm.com/download/linux" target="_blank">
-                    <image class="logoImage" src="Images/linuxIcon.png" title="Download for Linux/Unix"></image>
+                    <image class="logoImage" src="Images/linuxIcon.png" alt="Linux Logo" title="Download for Linux/Unix"></image>
                 </a>
 
                 <a href="https://git-scm.com/download/win" target="_blank">
-                    <image class="logoImage" src="Images/windowsIcon.png" title="Download for Windows"></image>
+                    <image class="logoImage" src="Images/windowsIcon.png" alt="Windows Logo" title="Download for Windows"></image>
                 </a>
 
                 <a href="https://git-scm.com/download/mac" target="_blank">
-                    <image class="logoImage" src="Images/macIcon.png" title="Download for Mac"></image>
+                    <image class="logoImage" src="Images/macIcon.png" alt="MAC Logo" title="Download for Mac"></image>
                 </a>
             </p>
 
@@ -131,7 +196,7 @@
                 Secondly, you can download various Git logos in PNG and EPS format. This page have one of them in the beginning.
                 <p class="centerP">
                     <a href="https://git-scm.com/downloads/logos" target="_blank">
-                        <image class="logoImage" src="Images/Git_logo_black.png" title="Download Git Logos"></image>
+                        <image class="logoImage" src="Images/Git_logo_black.png" alt="Git Black Logo" title="Download Git Logos"></image>
                     </a>
                 </p>
             </p>
@@ -203,7 +268,7 @@
                             <br/>
                         </p>
                         <p class="centerP">
-                            <image class="logoImage" src="Images/BIGBash_Icon.png" title="Git Bash Icon"></image>
+                            <image class="logoImage" src="Images/BIGBash_Icon.png" alt="Git Bash Logo" title="Git Bash Icon"></image>
                         </p>
 
                     <button class="buttonClose" onclick="openSection('winSection')"></button>
@@ -584,11 +649,13 @@
                         </tr>
                     </tbody>
                 </table>
+
                 <p id="docLink" class="centerP">
                     <a href="https://git-scm.com/docs" target="_blank">
-                        <image class="logoImage" src="Images/GIT_Icon.png" title="Git Commands"></image>
+                        <image class="logoImage" src="Images/GIT_Icon.png" alt="Git Icon" title="Git Commands"></image>
                     </a>
                 </p>
+
                 <button id="buttonCloseTable" class="buttonCloseTable" onclick="opentable()">Open Table</button>
             </div>
 
@@ -599,27 +666,26 @@
 
         <article id="section8" class="section">
             <h1>Third-party Tools</h1>
-            <p>
-                Git comes with built-in GUI tools (git-gui, gitk), but there are several third-party tools for users looking for a platform-specific experience. The most famous Git GUI Clients are the following:
-                <p class="centerP">
-                    <a href="https://github.com/" target="_blank">
-                        <image class="logoImage" src="Images/Github_logo.png" title="Github Website"></image>
-                    </a>
-                    <a href="https://www.sourcetreeapp.com/" target="_blank">
-                        <image class="logoImage" src="Images/Sourcetree_logo.svg" title="Sourcetree Website"></image>
-                    </a>
-                    <a href="https://tortoisegit.org/" target="_blank">
-                        <image class="logoImage" src="Images/Tortoisegit_logo.png" title="TortoiseGit Website"></image>
-                    </a>
-                    <a href="http://gitextensions.github.io/" target="_blank">
-                        <image class="logoImage" src="Images/Gitextensions_logo.png" title="Git Extensions Website"></image>
-                    </a>
-                </p>
-                Git Graphical User Interface (GUI) clients are tools that provide alternative visualization for Git.
-                <br/>
-                <br/>
-                You can find more <a class="textLink" href="https://git-scm.com/downloads/guis" target="_blank">Git GUI Clients</a> in the Git Website.
-            </p>
+
+            <p>Git comes with built-in GUI tools (git-gui, gitk), but there are several third-party tools for users looking for a platform-specific experience. The most famous Git GUI Clients are the following:</p>
+
+            <div class="centerP">
+                <a href="https://github.com/" target="_blank">
+                    <image class="logoImage" src="Images/Github_logo.png" alt="Github Logo" title="Github Website"></image>
+                </a>
+                <a href="https://www.sourcetreeapp.com/" target="_blank">
+                    <image class="logoImage" src="Images/Sourcetree_logo.svg" alt="Sourcetree Logo" title="Sourcetree Website"></image>
+                </a>
+                <a href="https://tortoisegit.org/" target="_blank">
+                    <image class="logoImage" src="Images/Tortoisegit_logo.png" alt="Tortoise Logo" title="TortoiseGit Website"></image>
+                </a>
+                <a href="http://gitextensions.github.io/" target="_blank">
+                    <image class="logoImage" src="Images/Gitextensions_logo.png" alt="Git Extensions Logo" title="Git Extensions Website"></image>
+                </a>
+            </div>
+            <p>Git Graphical User Interface (GUI) clients are tools that provide alternative visualization for Git.</p>
+
+            <p>You can find more <a class="textLink" href="https://git-scm.com/downloads/guis" target="_blank">Git GUI Clients</a> in the Git Website.</p>
 
             <a href="#title">
                 <button class="buttonUP"></button>
