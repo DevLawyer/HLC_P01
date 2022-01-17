@@ -49,9 +49,22 @@
     margin-top: 20px;
 }
 
+.gif
+{
+    color: white;
+    width: 400px;
+    height: 300px;
+    background: url("Images/first.png") no-repeat;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.gif:hover
+{
+    background: url("Images/move.gif") no-repeat;
+}
+
 .center {
-    margin: 20px;
-    display: block;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
