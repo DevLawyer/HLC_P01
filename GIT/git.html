@@ -4,6 +4,7 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <title>Git</title>
+    <link rel="stylesheet" href="common.css">
     <link rel="stylesheet" href="git.css">
     <script src="git.js"></script>
 </head>
@@ -15,14 +16,14 @@
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">X</a>
         <h2 class="subtitle">CONTENT</h2>
         <p class="sideContent" >
-            <a href="#section1">ABOUT Git</a><br/>
+            <a href="#section1">ABOUT GIT</a><br/>
         </p>
         <p class="sideContent" >
-            <a href="#section2">Git ADVANTAGES</a><br/>
+            <a href="#section2">GIT ADVANTAGES</a><br/>
         </p>
 
         <p class="sideContent">
-            <a href="#section3">Git DISADVANTAGES</a><br/>
+            <a href="#section3">GIT DISADVANTAGES</a><br/>
         </p>
         <p class="sideContent"> 
             <a href="#section4">DOWNLOAD</a><br/>
@@ -76,7 +77,7 @@
                     <li class="listItemUL">Good distributed model as each developer gets a local repository with a full history of commits which makes git fast compared to other VCs.</li>
                     <li class="listItemUL">Branching capabilities and merging are easy (as they are cheap), good data integrity.</li>
                     <li class="listItemUL">They are free and open-source we can easily download the source code and performs changes to it. They can handle larger projects efficiently.</li>
-                    <li class="listItemUL">The push/pull operations are faster with a simple They save time and developers can fetch and create pull requests without switching.</li>
+                    <li class="listItemUL">The push/pull operations are faster with a simple command. They save time and developers can fetch and create pull requests without switching.</li>
                     <li class="listItemUL">Data redundancy and replications. Add ons can be written in many languages.</li>
                     <li class="listItemUL">They have good and faster network performance and superior disk utilization and they think about its data like a sequence of snapshots.</li>
                     <li class="listItemUL">The object model is very simple and minimizes push/pull data transfers.</li>
@@ -110,7 +111,7 @@
         <article id="section4" class="section">
             <h1>Download</h1>
             <p>
-                In the page for downloads you can find some downloads. Firstly you can download the latest source release of Git for the following operatin systems:
+                In the page for downloads you can find some downloads options. You can download the latest source release of Git for the following operating systems:
             </p>
             <p class="centerP">
                 <a href="https://git-scm.com/download/linux" target="_blank">
@@ -127,7 +128,7 @@
             </p>
 
             <p>
-                Secondly, you can download various Git logos in PNG and EPS format. In the begining of this page you can see one of them.
+                Secondly, you can download various Git logos in PNG and EPS format. This page have one of them in the beginning.
                 <p class="centerP">
                     <a href="https://git-scm.com/downloads/logos" target="_blank">
                         <image class="logoImage" src="Images/Git_logo_black.png" title="Download Git Logos"></image>
@@ -147,11 +148,12 @@
         <article id="section5" class="section">
             <h1>Installation Guide</h1>
             <p>
-                The installation process is detailed in the following links for each operating system:
+                The installation process is detailed in the following section and links for each operating system:
                 
                 <div id="linuxSection" class="innerP">
                     <a href="javascript:void(0)" class="collapseSection" onclick="openSection('linuxSection')">
                         <h3>Linux/Unix</h3>
+                    </a>
                         <p>
                             If you want to install the basic Git tools on Linux via a binary installer, you can generally do so through the package management tool that comes with your distribution. If you’re on Fedora (or any closely-related RPM-based distribution, such as RHEL or CentOS), you can use <code class="codeText">dnf</code>:
                             <br/>
@@ -165,7 +167,6 @@
                             <br/>
                             For more options, there are instructions for installing on several different Unix distributions on the Git website. <a class="textLink" href="#section4">Go to Downloads</a>
                         </p>
-                    </a>
 
                     <button class="buttonClose" onclick="openSection('linuxSection')"></button>
                 </div>
@@ -173,6 +174,7 @@
                 <div id="winSection"  class="innerP">
                     <a href="javascript:void(0)" class="collapseSection" onclick="openSection('winSection')">
                         <h3>Windows</h3>
+                    </a>
                         <p>
                             <ol>
                                 <li class="listItemOL">Click the download link for Windows and allow the download to complete.</li>
@@ -182,7 +184,7 @@
                                 <li class="listItemOL">The installer will ask you for an installation location. Leave the default, unless you have reason to change it, and click Next.</li>
                                 <li class="listItemOL">A component selection screen will appear. Leave the defaults unless you have a specific need to change them and click Next.</li>
                                 <li class="listItemOL">The installer will offer to create a start menu folder. Simply click Next.</li>
-                                <li class="listItemOL">Select a text editor you’d like to use with Git. Use the drop-down menu to select Notepad++ (or whichever text editor you prefer) and click Next.</li>
+                                <li class="listItemOL">Select a text editor you’d like to use with Git. Use the drop-down menu to select your text editor and click Next.</li>
                                 <li class="listItemOL">The next step allows you to choose a different name for your initial branch. The default is 'master.' Unless you're working in a team that requires a different name, leave the default option and click Next.</li>
                                 <li class="listItemOL">This installation step allows you to change the PATH environment. The PATH is the default set of directories included when you run a command from the command line. Leave this on the middle (recommended) selection and click Next.</li>
                                 <li class="listItemOL">The installer now asks which SSH client you want Git to use. Git already comes with its own SSH client, so if you don't need a specific one, leave the default option and click Next.</li>
@@ -192,13 +194,17 @@
                                 <li class="listItemOL">The installer now asks what the <code class="codeText">git pull</code> command should do. The default option is recommended unless you specifically need to change its behavior. Click Next to continue with the installation.</li>
                                 <li class="listItemOL">Next you should choose which credential helper to use. Git uses credential helpers to fetch or save credentials. Leave the default option as it is the most stable one, and click Next.</li>
                                 <li class="listItemOL">The default options are recommended, however this step allows you to decide which extra option you would like to enable. If you use symbolic links, which are like shortcuts for the command line, tick the box. Click Next.</li>
-                                <li class="listItemOL">Depending on the version of Git you’re installing, it may offer to install experimental features. At the time this article was written, the options to include support for pseudo controls and a built-in file system monitor were offered. Unless you are feeling adventurous, leave them unchecked and click Install.</li>
+                                <li class="listItemOL">Depending on the version of Git you’re installing, it may offer to install experimental features. Unless you are feeling adventurous, leave them unchecked and click Install.</li>
                                 <li class="listItemOL">Once the installation is complete, tick the boxes to view the Release Notes or Launch Git Bash, then click Finish.</li>
                             </ol>
                             Git has two modes of use a bash scripting shell (or command line) and a graphical user interface (GUI).
                             To launch Git Bash open the Windows Start menu, type git bash and press Enter (or click the application icon).
+                            <br/>
+                            <br/>
                         </p>
-                    </a>
+                        <p class="centerP">
+                            <image class="logoImage" src="Images/BIGBash_Icon.png" title="Git Bash Icon"></image>
+                        </p>
 
                     <button class="buttonClose" onclick="openSection('winSection')"></button>
                 </div>
@@ -206,11 +212,12 @@
                 <div id="macSection" class="innerP">
                     <a href="javascript:void(0)" class="collapseSection" onclick="openSection('macSection')">
                         <h3>Mac</h3>
+                    </a>
                         <p>
                             <h4>Install Git with Mac OS installer</h4>
                             <ol>
-                                <li class="listItemOL">Firstly, download the Git installer from the website.<a class="textLink" href="#section4">Go to Downloads</a></li>
-                                <li class="listItemOL">Then, follow the instruction of the installer to install Git in your device.</li>
+                                <li class="listItemOL">Firstly, you need to download the Git installer from the website.<a class="textLink" href="#section4">Go to Downloads</a></li>
+                                <li class="listItemOL">Then, the installer offer you the instructions to install Git in your device.</li>
                                 <li class="listItemOL">
                                     After installing Git, open a Terminal to show the correct installation. You can verify this with the follogin command:
                                     <br/>
@@ -219,7 +226,7 @@
                                     <br/>
                                 </li>
                                 <li class="listItemOL">
-                                    Now, for configure the user and the e-mail you must use the commands below (you must change User Name and the e-amil to your information):
+                                    Now, for configure the user and the e-mail you must use the commands below (you must change "User Name" and the e-amil to your information):
                                     <br/>
                                     <br/>
                                     <code class="codeLine">$ git config --global user.name "User Name"</code>
@@ -231,7 +238,7 @@
                         </p>
                         <p>
                             <h4>Install Git with Homebrew</h4>
-                            If you installed the scrpt installs Homebrew for manage your packages do the instructions below:
+                            If you installed the script installs Homebrew for manage your packages, do the instructions below:
                             <br/>
                             <br/>
                             <ol>
@@ -250,7 +257,7 @@
                                     <br/>
                                 </li>
                                 <li class="listItemOL">
-                                    To configure the user name and e-mail, you can use the same commands as before (you must change User Name and the e-amil to your information).
+                                    To configure the user name and e-mail, you can use the same commands as before (you must change "User Name" and the e-amil to your information).
                                     <br/>
                                     <br/>
                                     <code class="codeLine">$ git config --global user.name "User Name"</code>
@@ -262,7 +269,7 @@
                         </p>
                         <p>
                             <h4>Install Git with MacPorts</h4>
-                            Finally, if you have install in your device MacPorts for package management do the instructions below:
+                            Finally, if you have installed in your device MacPorts for package management do the instructions below:
                             <br/>
                             <br/>
                             <ol>
@@ -299,7 +306,6 @@
                                 </li>
                             </ol>
                         </p>
-                    </a>
 
                     <button class="buttonClose" onclick="openSection('macSection')"></button>
                 </div>
