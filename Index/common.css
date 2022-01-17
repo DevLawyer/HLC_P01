@@ -4,6 +4,10 @@ HLC module.
 */
 
 /* Common elements style. */
+*{
+    margin: 0;
+    padding: 0;
+}
 
 html
 {
@@ -20,7 +24,7 @@ body
 /* HEADER style. */
 header
 {
-    margin-left: 360px;
+    margin-left: 350px;
     transition: 0.5s;
 }
 
@@ -32,13 +36,11 @@ h1.mainTitle
     padding: 50px;
     color: #1F2839;
     transition: 0.5s;
-    border-radius: 10px;
 }
 
 h1.title
 {
-    margin-left: 360px;
-    margin-right: 10px;
+    margin-left: 350px;
     text-align:center;
     clear: both;
     padding: 50px;
@@ -57,23 +59,21 @@ h1.mainTitle:last-child{
     margin-top: -73px;
 }
 
-
-
-/* NAV style. */
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+.mainHeader
+{
+    position: sticky;
+    top: 0;
+    background-color: #F5F5EF;
+    margin-bottom: 10px;
 }
 
+/* NAV style. */
 .navigationMenu {
     margin-top: 33px;
     background: #1f2839;
     text-align: center;
     transition: 0.5s;
-    border-radius: 10px;
-    margin-left: 360px;
-    margin-right: 10px;
+    margin-left: 350px;
 }
 
 .navigationMenu  > ul{
@@ -160,9 +160,9 @@ h2.subtitle
 
 .sideContent
 {
-    height: 30px;
+    height: 20px;
     padding: 10px;
-    margin-bottom: 20px;
+    padding-left: 20px;
 }
 
 .sideContent>a
@@ -188,15 +188,12 @@ h2.subtitle
     font-size: 20px;
     cursor: pointer;
     background-color: #1F2839;
+    border-style: none;
     color: #F5F5EF;
-    border-radius: 10px;
     padding: 7px 13px;
-    margin-top: 10px;
+    margin-top: 4px;
     margin-bottom: 0;
     margin-left: 10px;
-    border-width: 2px;
-    border-style: solid;
-    border-color: #F5F5EF;
     transition: 0.5s;
     visibility: hidden;
 }
@@ -308,12 +305,11 @@ article
 /*footer*/
 
 footer{
-    margin-left: 360px; 
+    margin-left: 350px; 
+    margin-bottom: 0;
     height: 200px;
     background: #1f2839;
     color: white;
-    border-radius: 10px;
-    margin-right: 10px;
     transition: 0.5s;
 }
 
@@ -339,8 +335,6 @@ footer p{
 .footerSection{
     padding: 10px;
     margin-bottom: 10px;
-
-
 }
 
 

@@ -30,9 +30,9 @@ h1.title
 /* ASIDE style. */
 .sidebar
 {
+    position: fixed;
     height: 100%;
     width: 250px;
-    position: fixed;
     left: 0;
     padding-top: 50px;
     margin-right: 10px;
