@@ -21,16 +21,26 @@
 
 /*ARTICULO 2*/
 #tablaS2{
-  margin: 5px;
+  margin: 1%;
   align-items: center;
   align-self: center;;
   text-align: center;
+  border: 5px solid #b69d74;
+  border-collapse: collapse;
+  background-color: #8B8B8B;
+}
+
+#tablaS2 tr{
+  border-bottom: 1px solid black;
 }
 
 #tablaS2 td{
   width: 50%;
-  background-color: #8B8B8B;
-  border-radius: 10px;
+  border-left: 1px solid black;
+  align-content: center;
+  justify-content: center;
+  padding-top: 1%;
+  padding-bottom: 1%;
 }
 
 /*ARTICULO 3*/
@@ -62,7 +72,57 @@
   padding-right: 30%;
 }
 
-/*ARTICULO 4*/
-#section6 ul{
-  margin-left: 4%;
+.imgS4 img{
+  border: 3px solid black;
+}
+
+/*ARTICULO 5*/
+.textoS5{
+  margin: 2%;
+}
+
+.imgS5{
+  width: 80%;
+  margin-left: 10%;
+  border: 3px solid black;
+}
+
+/*ARTICULO 6*/
+.textoS6{
+  margin-top: 2%;
+}
+
+.listaS6{
+  margin-top: 2%;
+}
+
+.listaS6 ul{
+  background-color: #8B8B8B;
+  list-style-type: square;
+  border: 3px solid #b69d74;
+}
+
+.listaS6 ul li{
+  background-color: #D6D5D5;
+}
+
+.listaS6 ul li p{
+  margin-left: 1%;
+}
+
+.imgS6{
+  margin-top: 3%;
+  margin-bottom: 3%;
+  border: 3px solid black;
+}
+
+/*ARTICULO 7*/
+.textoS7{
+  margin-top: 2%;
+}
+
+.imgS7{
+  margin-top: 3%;
+  margin-bottom: 3%;
+  border: 3px solid black;
 }
