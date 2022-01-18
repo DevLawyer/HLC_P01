@@ -51,6 +51,9 @@
 
 .gif
 {
+    border-color: #1F2839;
+    border-style: solid;
+    border-width: 3px;
     color: white;
     width: 400px;
     height: 300px;

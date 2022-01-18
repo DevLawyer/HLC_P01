@@ -125,7 +125,7 @@ code{
     height: 40px;
     width: 100%;
     border-radius: 10px;
-    background: url("arrowUP.png") no-repeat;
+    background: url("../Index/Images/arrowUP.png") no-repeat;
     padding: 10px;
 	background-position: center;
     background-color: #b69d74;
@@ -136,7 +136,7 @@ code{
 {
     color: #F5F5EF;
     transition: 0.3s;
-    background-image: url("arrowUP_Hover.png");
+    background-image: url("../Index/Images/arrowUP_Hover.png");
 }
 
 .buttonCloseTable 
